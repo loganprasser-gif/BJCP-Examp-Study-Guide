@@ -1,190 +1,1210 @@
 {
-  "critical": [
+  "critical_additions_batch1": [
     {
-      "q": "Which of the following describes the yeast profile of a classic German Weissbier (10A)?",
-      "options": ["Clean, highly flocculant", "Prominent banana and clove", "Spicy phenols with Brett", "Peppery phenols with lactic acidity"],
+      "q": "What is the typical Original Gravity (OG) range for a Czech Premium Pale Lager (3B)?",
+      "options": ["1.028–1.040", "1.044–1.060", "1.065–1.080", "1.080–1.100"],
       "a": 1,
-      "exp": "Weissbier yeast provides signature banana (isoamyl acetate) and clove (4-vinylguaiacol)."
+      "exp": "Czech Premium Pale Lager has a standard OG range of 1.044 to 1.060."
     },
     {
-      "q": "What distinguishes an American Porter (20A) from an Irish Stout (15B)?",
-      "options": ["Irish Stout is sweeter", "American Porter lacks the sharp roasted barley acrid bite", "American Porter uses exclusively European malts", "Irish Stout requires flaked maize"],
+      "q": "Which water profile characteristic is traditional for Czech Premium Pale Lager (3B)?",
+      "options": ["High carbonate and high sulfate", "Extremely soft water with low dissolved minerals", "High gypsum content for sharp hop bite", "High sodium chloride only"],
       "a": 1,
-      "exp": "Irish Stouts are defined by roasted unmalted barley astringency; American Porters rely on chocolate/caramel malts and clean hop bitterness."
+      "exp": "Plzeň water is famously extremely soft, enhancing rounded malt and smooth Saaz hop expression."
     },
     {
-      "q": "What is the defining malt character of a Doppelbock (9A)?",
-      "options": ["Heavy smoke", "Intense, rich Maillard products, toasty, dark fruit", "Crisp pilsner malt", "Caramel dominance"],
+      "q": "What is the primary flavor difference between German Pils (5D) and Czech Premium Pale Lager (3B)?",
+      "options": ["Czech Pils is drier with no malt sweetness", "German Pils is drier, crisper, lighter-bodied, and features higher attenuation", "Czech Pils has higher ABV and heavy roast", "German Pils relies on ale yeast"],
       "a": 1,
-      "exp": "Doppelbocks rely on rich Munich and Vienna malts undergoing extensive Maillard reactions during mashing/boiling."
+      "exp": "German Pils uses higher sulfate water and higher attenuation, resulting in a drier, crisper, and more bitter profile than Czech Premium Pale Lager."
     },
     {
-      "q": "Which hop variety is most authentic for a Czech Premium Pale Lager (3B)?",
-      "options": ["Cascade", "East Kent Goldings", "Saaz", "Hallertau Mittelfrüh"],
+      "q": "What is the standard IBU range for a German Pils (5D)?",
+      "options": ["8–15 IBU", "22–40 IBU", "50–70 IBU", "70–100 IBU"],
+      "a": 1,
+      "exp": "German Pils features assertive noble bitterness in the 22–40 IBU range."
+    },
+    {
+      "q": "Which mashing technique is historically and traditionally used for authentic Märzen (6A)?",
+      "options": ["Single infusion mash at 158°F", "Decoction mashing", "Cereal mash with 40% corn", "No-mash extract steeping"],
+      "a": 1,
+      "exp": "Decoction mashing (double or triple) enhances rich Maillard products without caramel sweetness."
+    },
+    {
+      "q": "What is the color range (SRM) specified for Märzen (6A)?",
+      "options": ["2–5 SRM", "8–17 SRM", "22–35 SRM", "35–40 SRM"],
+      "a": 1,
+      "exp": "Märzen ranges from gold to deep amber/copper (8–17 SRM)."
+    },
+    {
+      "q": "What historical origin defines the Doppelbock (9A) style?",
+      "options": ["Brewed by British sailors for long voyages to India", "Brewed by Paulaner monks in Munich as 'liquid bread' for Lenten fasts", "Developed in Pilsen in 1842", "Brewed in Belgium for farm workers"],
+      "a": 1,
+      "exp": "Minims monks (Paulaner) in Munich brewed rich Salvator Doppelbock for sustenance during Lent."
+    },
+    {
+      "q": "What is the minimum ABV required for a Doppelbock (9A)?",
+      "options": ["4.5%", "5.5%", "7.0%", "10.0%"],
       "a": 2,
-      "exp": "Saaz hops provide the classic spicy, floral, and herbal aroma of Czech pale lagers."
+      "exp": "Doppelbock ranges from 7.0% to 10.0% ABV."
     },
     {
-      "q": "A Belgian Tripel (26C) is characteristically:",
-      "options": ["Dark and sweet", "Pale, highly attenuated (dry), spicy/fruity, high ABV", "Amber, malt-forward", "Sour and funky"],
-      "a": 1,
-      "exp": "Tripels are pale and dry, utilizing highly attenuative yeast and clear candi sugar."
-    },
-    {
-      "q": "What is the primary difference between German Pils (5D) and Czech Premium Pale Lager (3B)?",
-      "options": ["German Pils is darker and sweeter", "German Pils is drier, crisper, lighter in body, and higher in carbonation", "Czech Pils uses exclusively ale yeast", "German Pils has lower IBUs"],
-      "a": 1,
-      "exp": "German Pils is drier, crisper, and more bitter due to sulfate water profiles and higher attenuation."
-    },
-    {
-      "q": "Which malt profile is essential for an authentic Märzen (6A)?",
-      "options": ["Heavy peat-smoked malt", "Rich toasted German Munich and Vienna malts without roast or caramel", "100% Pilsner malt", "Heavy black patent malt"],
-      "a": 1,
-      "exp": "Märzen relies on German Munich and Vienna malts for elegant, bready, toasted flavor."
-    },
-    {
-      "q": "What defines the bitterness profile of a Double IPA (22A)?",
-      "options": ["Low and hidden by alcohol", "Assertive and high (60-120 IBU) supported by clean pale malts and high attenuation", "Tart lactic sourness", "Earthy British hop astringency"],
-      "a": 1,
-      "exp": "Double IPAs showcase massive, clean hop bitterness drying out via sugar additions."
-    },
-    {
-      "q": "What is the acceptable diacetyl level in a Czech Premium Pale Lager (3B)?",
-      "options": ["Completely unacceptable under any circumstances", "Low to trace levels are acceptable and traditional", "Dominant, butterscotch flavor expected", "High diacetyl required"],
-      "a": 1,
-      "exp": "Low to trace diacetyl is permissible in Czech lagers, adding rounded mouthfeel."
-    },
-    {
-      "q": "Which parameters distinguish Best Bitter (11B) from Strong Bitter (11C)?",
-      "options": ["Best Bitter is stronger in alcohol", "Best Bitter has lower gravity (1.040-1.048) and alcohol (3.8-4.6%) than Strong Bitter", "Strong Bitter is a dark stout", "Best Bitter uses lager yeast"],
-      "a": 1,
-      "exp": "Best Bitter is a session pub ale, whereas Strong Bitter (ESB) scales up in gravity, alcohol, and hop bite."
-    }
-  ],
-  "tf": [
-    {
-      "q": "True or False: A judge may assign a score of 12 to a beer that is completely infected and undrinkable.",
-      "options": ["True", "False"],
-      "a": 1,
-      "exp": "False. The lowest permissible floor score for a beer evaluated in a BJCP competition is 13."
-    },
-    {
-      "q": "True or False: To achieve the rank of Master, a judge must score at least a 90 on both the Tasting Exam and the Written Exam.",
-      "options": ["True", "False"],
-      "a": 0,
-      "exp": "True. Master status requires a minimum 90% score on both exams in addition to experience points."
-    },
-    {
-      "q": "True or False: If a beer is entered into the wrong subcategory, the judge should evaluate it as the style it most resembles.",
-      "options": ["True", "False"],
-      "a": 1,
-      "exp": "False. Beers must be judged strictly against the specific subcategory in which they were entered."
-    },
-    {
-      "q": "True or False: A minimum of 20 experience points (including 10 judging points) is required to sit for the National Exam.",
-      "options": ["True", "False"],
-      "a": 0,
-      "exp": "True. National level prerequisites require 20 total points."
-    },
-    {
-      "q": "True or False: Non-BJCP judges may judge in a sanctioned competition if paired with an experienced BJCP judge.",
-      "options": ["True", "False"],
-      "a": 0,
-      "exp": "True. Novice or non-BJCP judges are routinely paired with experienced judges for training."
-    },
-    {
-      "q": "True or False: A score of 38-44 on a scoresheet designates an 'Excellent' example of the style.",
-      "options": ["True", "False"],
-      "a": 0,
-      "exp": "True. The score ranges are: Outstanding (45-50), Excellent (38-44), Very Good (30-37), Good (21-29), Fair (14-20), Problematic (13)."
-    },
-    {
-      "q": "True or False: Black or dark blue ink is required on BJCP scoresheets.",
-      "options": ["True", "False"],
-      "a": 0,
-      "exp": "True. Red or light-colored pens are prohibited as they do not scan or copy clearly."
-    },
-    {
-      "q": "True or False: Diacetyl rest involves raising lager fermentation temperatures near the end of primary fermentation.",
-      "options": ["True", "False"],
-      "a": 0,
-      "exp": "True. Raising the temperature to 62-65°F (17-18°C) encourages yeast to reabsorb diacetyl."
-    },
-    {
-      "q": "True or False: If two judges disagree by more than 7 points, they must discuss and reconcile their scores.",
-      "options": ["True", "False"],
-      "a": 0,
-      "exp": "True. The standard 7-point consensus rule requires judges to discuss and adjust scores."
-    },
-    {
-      "q": "True or False: Skunky odor in beer is caused by autolysis of dead yeast cells.",
-      "options": ["True", "False"],
-      "a": 1,
-      "exp": "False. Skunkiness (lightstruck) is caused by UV light breaking down hop alpha acids into 3-methyl-2-butene-1-thiol."
-    }
-  ],
-  "mead": [
-    {
-      "q": "Which honey variety is uniquely noted for having a natural 'waxy' character?",
-      "options": ["Orange Blossom", "Alfalfa", "Buckwheat", "Tupelo"],
-      "a": 1,
-      "exp": "Alfalfa honey naturally presents a beeswax and hay aroma."
-    },
-    {
-      "q": "What physical characteristic is unique to Tupelo honey?",
-      "options": ["High glucose causing rapid crystallization", "Dark purple hue", "High ratio of fructose to glucose preventing crystallization", "Natural high tannin content"],
+      "q": "What is the minimum required percentage of malted wheat in a traditional German Weissbier (10A)?",
+      "options": ["20%", "30%", "50%", "70%"],
       "a": 2,
-      "exp": "Tupelo honey rarely crystallizes due to its naturally high fructose ratio."
+      "exp": "German tax law requires at least 50% malted wheat in a Weizen/Weissbier grist."
     },
     {
-      "q": "What is a Bochet?",
-      "options": ["A mead made with caramelized or burned honey", "A sparkling metheglin", "A hybrid beer-mead using wheat", "A dry cider-mead blend"],
-      "a": 0,
-      "exp": "Bochet involves boiling/caramelizing honey prior to fermentation to create marshmallow, toffee, and burnt sugar flavors."
-    },
-    {
-      "q": "What is a Braggot?",
-      "options": ["A mead made with grapes", "A mead fermented with malted grain and honey", "A hopped traditional mead", "A fortified ice mead"],
+      "q": "Which chemical compounds are responsible for the signature aroma of Weissbier (10A)?",
+      "options": ["Diacetyl and Dimethyl Sulfide (DMS)", "Isoamyl acetate (banana) and 4-vinylguaiacol (clove)", "Acetaldehyde (green apple) and butyric acid", "Alpha acids and humulene"],
       "a": 1,
-      "exp": "Braggot is a historical style blending malted barley and honey."
+      "exp": "Weissbier yeast yields isoamyl acetate (banana ester) and 4-vinylguaiacol (clove phenol)."
     },
     {
-      "q": "Why are staggered nutrient additions (TOSNA/YAN) crucial in high-gravity mead fermentations?",
-      "options": ["To prevent fusel alcohol production and stuck fermentations", "To increase color intensity", "To prevent wild bacteria growth", "To raise final gravity"],
+      "q": "What is the standard IBU range for Best Bitter (11B)?",
+      "options": ["8–15 IBU", "25–40 IBU", "50–70 IBU", "80–100 IBU"],
+      "a": 1,
+      "exp": "Best Bitter features moderate English hop bitterness between 25 and 40 IBUs."
+    },
+    {
+      "q": "Which hop varieties are classic for Best Bitter (11B) and Strong Bitter (11C)?",
+      "options": ["Cascade and Citra", "Fuggles and East Kent Goldings", "Saaz and Sladek", "Hallertau and Tettnang"],
+      "a": 1,
+      "exp": "Traditional UK hop varieties like Fuggles and Goldings provide earthy, floral, and woody aromatics."
+    },
+    {
+      "q": "What distinguishes Strong Bitter (11C) from Best Bitter (11B)?",
+      "options": ["Strong Bitter uses lager yeast", "Strong Bitter has higher gravity (1.048–1.060) and alcohol (4.6–6.2%)", "Strong Bitter is jet black", "Best Bitter has higher IBUs"],
+      "a": 1,
+      "exp": "Strong Bitter (ESB) scales up in starting gravity, alcohol strength, and hop backing compared to Best Bitter."
+    },
+    {
+      "q": "What grain gives Irish Stout (15B) its characteristic sharp, dry, coffee-like astringency?",
+      "options": ["Flaked oats", "Unmalted roasted barley", "Chocolate rye", "Caramel 120L"],
+      "a": 1,
+      "exp": "Unmalted roasted barley delivers the sharp, dark coffee roast bite and dry finish of Irish Stout."
+    },
+    {
+      "q": "What is the standard ABV range for Irish Stout (15B)?",
+      "options": ["2.8–3.5%", "4.0–4.5%", "6.0–7.5%", "8.0–10.0%"],
+      "a": 1,
+      "exp": "Irish Stout is a lower-alcohol session dark ale ranging from 4.0% to 4.5% ABV."
+    },
+    {
+      "q": "How does American Porter (20A) differ sensory-wise from Irish Stout (15B)?",
+      "options": ["American Porter is drier and harsher", "American Porter lacks the sharp, acrid roasted barley bite and shows sweeter chocolate/caramel notes with American hops", "Irish Stout has strong citrus hops", "American Porter is lower in alcohol"],
+      "a": 1,
+      "exp": "American Porter emphasizes chocolate, caramel, and base malts with clean hop bitterness rather than harsh unmalted roasted barley."
+    },
+    {
+      "q": "What is the SRM color range for American Porter (20A)?",
+      "options": ["6–14 SRM", "14–22 SRM", "22–40 SRM", "40+ SRM"],
+      "a": 2,
+      "exp": "American Porter ranges from dark brown to black (22–40 SRM)."
+    },
+    {
+      "q": "Which hop character profile is expected in an American IPA (21A)?",
+      "options": ["Earthy, herbal UK Fuggles notes", "Bold Pacific Northwest or New World citrus, pine, resin, or tropical fruit aromatics", "Spicy Saaz hop notes only", "Absence of late hop aroma"],
+      "a": 1,
+      "exp": "American IPA showcases vibrant American/New World hops featuring citrus, floral, pine, resin, or stone fruit notes."
+    },
+    {
+      "q": "What is the typical Final Gravity (FG) range for American IPA (21A)?",
+      "options": ["0.998–1.004", "1.008–1.014", "1.018–1.024", "1.025–1.035"],
+      "a": 1,
+      "exp": "American IPA is well-attenuated, targeting an FG between 1.008 and 1.014 to keep the finish crisp."
+    },
+    {
+      "q": "What brewing adjunct is frequently added to Double IPA (22A) grists to ensure high attenuation and a dry finish?",
+      "options": ["Lactose", "Simple sugars (dextrose/sucrose)", "Flaked oats", "Peat-smoked malt"],
+      "a": 1,
+      "exp": "Adding simple sugars (up to 10–15%) increases gravity and alcohol without adding heavy unfermentable body."
+    },
+    {
+      "q": "What is the standard IBU range for Double IPA (22A)?",
+      "options": ["20–40 IBU", "40–60 IBU", "60–120 IBU", "150–200 IBU"],
+      "a": 2,
+      "exp": "Double IPA features high bitterness between 60 and 120 IBUs."
+    },
+    {
+      "q": "What ingredient provides the attenuation and spicy yeast character in Belgian Tripel (26C)?",
+      "options": ["Lager yeast and corn syrup", "Phenolic Belgian ale yeast and clear candi sugar", "Kettle souring bacteria", "Roasted barley and coriander"],
+      "a": 1,
+      "exp": "Belgian Tripel uses attenuative Belgian yeast and clear candi sugar to achieve a light body despite high ABV."
+    },
+    {
+      "q": "What is the color range (SRM) for Belgian Tripel (26C)?",
+      "options": ["4.5–7 SRM", "10–16 SRM", "18–25 SRM", "30–40 SRM"],
       "a": 0,
-      "exp": "Honey lacks free amino nitrogen (FAN), requiring phased additions of organic nutrients to prevent yeast stress."
+      "exp": "Belgian Tripel is yellow-gold to deep gold (4.5–7 SRM)."
+    },
+    {
+      "q": "Which off-flavor is a defect in German Pils (5D) but acceptable in low/trace amounts in Czech Premium Pale Lager (3B)?",
+      "options": ["Acetaldehyde", "Diacetyl", "Isovaleric Acid", "Chlorophenol"],
+      "a": 1,
+      "exp": "Trace diacetyl is acceptable in Czech Pale Lager, but is considered a flaw in German Pils."
+    },
+    {
+      "q": "Which of the 12 Critical Styles relies on flaked barley as a core grist component for head retention and creamy mouthfeel?",
+      "options": ["Doppelbock (9A)", "Irish Stout (15B)", "Belgian Tripel (26C)", "German Pils (5D)"],
+      "a": 1,
+      "exp": "Flaked barley is heavily used in Irish Stout to provide a creamy head and body."
+    },
+    {
+      "q": "What is the standard alcohol range (ABV) for Belgian Tripel (26C)?",
+      "options": ["4.5–5.5%", "5.5–7.0%", "7.5–9.5%", "10.0–12.5%"],
+      "a": 2,
+      "exp": "Belgian Tripel ranges from 7.5% to 9.5% ABV."
+    },
+    {
+      "q": "Which style has the lowest IBU parameter among the 12 Critical Styles?",
+      "options": ["Weissbier (10A)", "Märzen (6A)", "German Pils (5D)", "Best Bitter (11B)"],
+      "a": 0,
+      "exp": "Weissbier has an IBU range of 8–15 IBU."
+    },
+    {
+      "q": "What SRM color range describes German Pils (5D)?",
+      "options": ["2–5 SRM", "6–10 SRM", "12–18 SRM", "20–28 SRM"],
+      "a": 0,
+      "exp": "German Pils is straw to light gold (2–5 SRM)."
+    },
+    {
+      "q": "What distinguishes Märzen (6A) from Festbier (4B)?",
+      "options": ["Festbier is darker and stronger", "Märzen is darker, richer, more amber-to-copper, and maltier than Festbier", "Märzen uses wheat malt", "Festbier is an ale"],
+      "a": 1,
+      "exp": "Modern Oktoberfest Festbier is golden and lighter-bodied, whereas traditional Märzen is amber-copper and maltier."
+    },
+    {
+      "q": "Which of the 12 Critical Styles has an upper IBU threshold of 120?",
+      "options": ["American IPA (21A)", "Double IPA (22A)", "American Porter (20A)", "Strong Bitter (11C)"],
+      "a": 1,
+      "exp": "Double IPA (22A) has an IBU range of 60–120 IBU."
+    }
+    {
+      "q": "What is the acceptable Original Gravity (OG) range for German Pils (5D)?",
+      "options": ["1.028–1.040", "1.044–1.050", "1.056–1.070", "1.072–1.090"],
+      "a": 1,
+      "exp": "German Pils targets an OG range of 1.044 to 1.050."
+    },
+    {
+      "q": "What is the standard Final Gravity (FG) range for German Pils (5D)?",
+      "options": ["1.008–1.013", "1.015–1.020", "1.020–1.026", "1.028–1.035"],
+      "a": 0,
+      "exp": "German Pils attenuates down to an FG of 1.008–1.013 for a dry finish."
+    },
+    {
+      "q": "Which of the following best describes the flavor profile of Märzen (6A)?",
+      "options": ["Heavy roast, burnt dark grain, and high hop bitterness", "Elegant, rich, toasted bready malt complexity with low noble hop bitterness", "Tart lactic acidity with coriander and salt", "Citrus hop flavor with high caramel sweetness"],
+      "a": 1,
+      "exp": "Märzen showcases clean, toasted German malt complexity with restrained noble hop support."
+    },
+    {
+      "q": "What is the ABV range for Märzen (6A)?",
+      "options": ["3.8–4.6%", "4.4–5.2%", "5.6–6.0%", "7.5–9.5%"],
+      "a": 2,
+      "exp": "Märzen ranges from 5.6% to 6.0% ABV."
+    },
+    {
+      "q": "What is the Original Gravity (OG) range for Doppelbock (9A)?",
+      "options": ["1.044–1.052", "1.054–1.065", "1.072–1.112", "1.115–1.140"],
+      "a": 2,
+      "exp": "Doppelbock is a strong lager with an OG range of 1.072 to 1.112."
+    },
+    {
+      "q": "What is the SRM color range for Doppelbock (9A)?",
+      "options": ["2–5 SRM", "6–25 SRM", "28–35 SRM", "40+ SRM"],
+      "a": 1,
+      "exp": "Doppelbock can range from deep gold to dark reddish-brown (6–25 SRM)."
+    },
+    {
+      "q": "What is the standard Original Gravity (OG) range for Weissbier (10A)?",
+      "options": ["1.028–1.038", "1.044–1.052", "1.056–1.068", "1.070–1.085"],
+      "a": 1,
+      "exp": "Weissbier has an OG range of 1.044 to 1.052."
+    },
+    {
+      "q": "What is the SRM color range for Weissbier (10A)?",
+      "options": ["2–6 SRM", "8–14 SRM", "16–22 SRM", "25–30 SRM"],
+      "a": 0,
+      "exp": "Traditional Weissbier ranges from pale straw to gold (2–6 SRM)."
+    },
+    {
+      "q": "What is the standard Original Gravity (OG) range for Best Bitter (11B)?",
+      "options": ["1.030–1.038", "1.040–1.048", "1.050–1.062", "1.065–1.075"],
+      "a": 1,
+      "exp": "Best Bitter spans an OG range of 1.040 to 1.048."
+    },
+    {
+      "q": "What is the SRM color range for Best Bitter (11B)?",
+      "options": ["2–6 SRM", "8–16 SRM", "18–25 SRM", "30–40 SRM"],
+      "a": 1,
+      "exp": "Best Bitter is amber to copper in color (8–16 SRM)."
+    },
+    {
+      "q": "What is the standard Original Gravity (OG) range for Strong Bitter (11C)?",
+      "options": ["1.035–1.045", "1.048–1.060", "1.062–1.075", "1.080–1.095"],
+      "a": 1,
+      "exp": "Strong Bitter has an OG range of 1.048 to 1.060."
+    },
+    {
+      "q": "What is the standard IBU range for Strong Bitter (11C)?",
+      "options": ["15–25 IBU", "30–50 IBU", "55–70 IBU", "75–90 IBU"],
+      "a": 1,
+      "exp": "Strong Bitter ranges from 30 to 50 IBUs."
+    },
+    {
+      "q": "What is the standard Original Gravity (OG) range for Irish Stout (15B)?",
+      "options": ["1.036–1.044", "1.048–1.058", "1.060–1.072", "1.075–1.090"],
+      "a": 0,
+      "exp": "Irish Stout is a session-strength dark ale with an OG range of 1.036 to 1.044."
+    },
+    {
+      "q": "What is the IBU range for Irish Stout (15B)?",
+      "options": ["10–20 IBU", "25–45 IBU", "50–65 IBU", "70–80 IBU"],
+      "a": 1,
+      "exp": "Irish Stout has moderate to high roasted and hop bitterness (25–45 IBUs)."
+    },
+    {
+      "q": "What is the Original Gravity (OG) range for American Porter (20A)?",
+      "options": ["1.035–1.045", "1.050–1.070", "1.072–1.085", "1.090–1.105"],
+      "a": 1,
+      "exp": "American Porter has an OG range of 1.050 to 1.070."
+    },
+    {
+      "q": "What is the standard IBU range for American Porter (20A)?",
+      "options": ["10–20 IBU", "25–50 IBU", "55–75 IBU", "80–100 IBU"],
+      "a": 1,
+      "exp": "American Porter IBUs range from 25 to 50."
+    },
+    {
+      "q": "What is the Original Gravity (OG) range for American IPA (21A)?",
+      "options": ["1.040–1.050", "1.056–1.070", "1.072–1.085", "1.090–1.110"],
+      "a": 1,
+      "exp": "American IPA targets an OG range of 1.056 to 1.070."
+    },
+    {
+      "q": "What is the ABV range for American IPA (21A)?",
+      "options": ["3.8–4.8%", "4.8–5.5%", "5.5–7.5%", "8.0–10.0%"],
+      "a": 2,
+      "exp": "American IPA spans 5.5% to 7.5% ABV."
+    },
+    {
+      "q": "What is the Original Gravity (OG) range for Double IPA (22A)?",
+      "options": ["1.050–1.062", "1.065–1.085", "1.088–1.105", "1.110–1.130"],
+      "a": 1,
+      "exp": "Double IPA is a high-gravity style with an OG range of 1.065 to 1.085."
+    },
+    {
+      "q": "What is the ABV range for Double IPA (22A)?",
+      "options": ["5.5–7.0%", "7.5–10.0%", "10.5–13.0%", "13.5–15.0%"],
+      "a": 1,
+      "exp": "Double IPA ranges from 7.5% to 10.0% ABV."
+    },
+    {
+      "q": "What is the Original Gravity (OG) range for Belgian Tripel (26C)?",
+      "options": ["1.050–1.065", "1.075–1.085", "1.090–1.105", "1.110–1.125"],
+      "a": 1,
+      "exp": "Belgian Tripel has an OG range of 1.075 to 1.085."
+    },
+    {
+      "q": "What is the IBU range for Belgian Tripel (26C)?",
+      "options": ["8–15 IBU", "20–40 IBU", "45–60 IBU", "65–80 IBU"],
+      "a": 1,
+      "exp": "Belgian Tripel IBUs range from 20 to 40."
+    },
+    {
+      "q": "What yeast characteristics distinguish Belgian Tripel (26C) from Double IPA (22A)?",
+      "options": ["Tripel yeast produces spicy peppery phenols and fruity esters; DIPA uses clean US ale yeast", "Tripel uses neutral lager yeast", "DIPA produces heavy banana esters", "Tripel uses souring Lactobacillus yeast"],
+      "a": 0,
+      "exp": "Belgian Tripel depends on expressive phenolic/estery yeast, while DIPA uses clean yeast to highlight hops."
+    },
+    {
+      "q": "Which critical style features an FG range of 1.013–1.017, higher than most standard pale lagers?",
+      "options": ["German Pils (5D)", "Czech Premium Pale Lager (3B)", "American Light Lager (1A)", "Double IPA (22A)"],
+      "a": 1,
+      "exp": "Czech Premium Pale Lager maintains higher unfermented malt extracts (FG 1.013–1.017) for mouthfeel."
+    },
+    {
+      "q": "Which style relies on decoction mashing specifically to produce dark fruit and rich melanoidin character?",
+      "options": ["Irish Stout (15B)", "Doppelbock (9A)", "Best Bitter (11B)", "American IPA (21A)"],
+      "a": 1,
+      "exp": "Traditional Doppelbocks use double/triple decoction mashing to create deep melanoidin and malt complexity."
+    },
+    {
+      "q": "What water chemistry adjustment is commonly made to enhance the hop crispness in German Pils (5D)?",
+      "options": ["Adding calcium chloride", "Adding calcium sulfate (gypsum)", "Adding sodium bicarbonate", "Using distilled water without minerals"],
+      "a": 1,
+      "exp": "Sulfate ions accentuate hop bitterness and create a drier, crisper finish."
+    },
+    {
+      "q": "Which critical style relies heavily on dark roasted unmalted barley rather than malted dark grains?",
+      "options": ["American Porter (20A)", "Irish Stout (15B)", "Doppelbock (9A)", "Märzen (6A)"],
+      "a": 1,
+      "exp": "Unmalted roasted barley provides the signature sharp coffee bite of Irish Stout."
+    },
+    {
+      "q": "Which of the 12 Critical Styles permits a slight hazy appearance caused by yeast in suspension as a style trait?",
+      "options": ["German Pils (5D)", "Weissbier (10A)", "Czech Premium Pale Lager (3B)", "Märzen (6A)"],
+      "a": 1,
+      "exp": "Weissbier (Hefeweizen) is traditionally unfiltered and hazy from suspended yeast and wheat proteins."
+    },
+    {
+      "q": "Which hop profile is most inappropriate for a classic Best Bitter (11B)?",
+      "options": ["Earthy Fuggles", "Floral East Kent Goldings", "Pungent, tropical Citra and Mosaic", "Woody Sovereign"],
+      "a": 2,
+      "exp": "American tropical/citrus hop varieties are inappropriate in traditional British Best Bitters."
+    },
+    {
+      "q": "What is the FG range for Belgian Tripel (26C)?",
+      "options": ["1.008–1.014", "1.018–1.024", "1.025–1.030", "1.032–1.040"],
+      "a": 0,
+      "exp": "Belgian Tripel attenuates heavily down to 1.008–1.014 despite its high starting gravity."
     }
   ],
-  "cider": [
+  "tf_additions_batch1": [
     {
-      "q": "What is Keeving (Défécation)?",
-      "options": ["A French method to create naturally sweet cider by starving yeast of nutrients", "Freezing apple juice to concentrate sugar", "Boiling cider to caramelize sugars", "Adding sulfur dioxide to kill wild bacteria"],
-      "a": 0,
-      "exp": "Keeving forms a pectin gel 'chapeau brun' that strips nitrogen/nutrients, halting fermentation naturally to leave residual sugar."
+      "q": "True or False: A judge must write a minimum of 25 words in every score box on a BJCP scoresheet.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. There is no strict word-count requirement, though judges must provide complete, descriptive feedback."
     },
     {
-      "q": "What sugar alcohol naturally present in perry pears imparts a sweet perception even in bone-dry perry?",
-      "options": ["Sorbitol", "Xylitol", "Mannitol", "Glycerol"],
+      "q": "True or False: A score of 46 on a BJCP scoresheet falls in the 'Outstanding' category range.",
+      "options": ["True", "False"],
       "a": 0,
-      "exp": "Sorbitol is unfermentable by wine/cider yeast, providing residual sweetness and slick mouthfeel in perry."
+      "exp": "True. The Outstanding range is 45 to 50 points."
     },
     {
-      "q": "What is an 'escanciar' pour in Spanish cider service?",
-      "options": ["Pouring Spanish cider from height to aerate and release CO2/volatiles", "Straining apple pulp through cheesecloth", "Barrel aging cider in sherry casks", "Blending sweet and sharp apple juice"],
+      "q": "True or False: Oxygenation of cooled wort prior to pitch is necessary for healthy yeast cell membrane synthesis.",
+      "options": ["True", "False"],
       "a": 0,
-      "exp": "Escanciar is the traditional Asturian method of pouring cider overhead into a glass held low."
+      "exp": "True. Yeast requires dissolved oxygen to synthesize ergosterol and unsaturated fatty acids."
     },
     {
-      "q": "What defines an Ice Cider (C2C)?",
-      "options": ["Cider made from freeze-concentrated apple juice with no added sugar", "Cider served over crushed ice", "Cider fermented with lager yeast at freezing temperatures", "Cider aged in snow caves"],
+      "q": "True or False: Acetaldehyde presents sensorially as green apples or freshly cut grass.",
+      "options": ["True", "False"],
       "a": 0,
-      "exp": "Ice ciders concentrate natural apple sugars via ambient freeze distillation of juice or apples before fermentation."
+      "exp": "True. Acetaldehyde is an intermediate compound in ethanol fermentation that smells like green apple."
     },
     {
-      "q": "Which apple category provides high tannin and low acidity?",
+      "q": "True or False: Dimethyl Sulfide (DMS) is derived from S-methylmethionine (SMM) created during malting.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. SMM converts to DMS during the boil; a vigorous, uncovered boil drives off volatile DMS."
+    },
+    {
+      "q": "True or False: Pediococcus bacteria produce lactic acid and can also produce diacetyl.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Pediococcus produces clean lactic acid but frequently yields high diacetyl requiring Brettanomyces cleanup."
+    },
+    {
+      "q": "True or False: To qualify for the BJCP Master rank, a judge needs 100 total experience points.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Master requires 100 total points (minimum 50 judging points) plus 90%+ on both exams."
+    },
+    {
+      "q": "True or False: Isovaleric acid smells like cheesy, sweaty feet and comes from aged or oxidized hops.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Oxidation of hop alpha acids produces cheesy isovaleric acid."
+    },
+    {
+      "q": "True or False: The head judge at a competition table must assign final scores for all judges.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Each judge determines their own score after consensus discussion."
+    },
+    {
+      "q": "True or False: Chlorophenol off-flavor smells like Band-Aids or medicinal antiseptic.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Chlorine/chloramine in water reacting with yeast phenols creates medicinal chlorophenol."
+    },
+    {
+      "q": "True or False: A judge must evaluate a beer against its declared subcategory style, not personal preferences.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Judging objective fidelity to style guidelines is mandatory."
+    },
+    {
+      "q": "True or False: High fermentation temperatures generally increase ester and fusel alcohol production.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Elevated yeast metabolic rates at high temperatures drive up esters and higher fusel alcohols."
+    },
+    {
+      "q": "True or False: Haze in a German Pils (5D) is an expected and desirable appearance characteristic.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. German Pils must have brilliant clarity."
+    },
+    {
+      "q": "True or False: Trub consists of hot and cold break proteins and hop particulates.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Trub comprises coagulated protein-tannin complexes and hop debris."
+    },
+    {
+      "q": "True or False: Trans-2-nonenal causes papery or cardboard-like oxidation flavors.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Trans-2-nonenal is the primary lipid oxidation compound responsible for stale paper notes."
+    },
+    {
+      "q": "True or False: Water hardness is determined primarily by dissolved calcium and magnesium ions.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Hardness measures concentration of divalent cations, chiefly Ca2+ and Mg2+."
+    },
+    {
+      "q": "True or False: Alkaline water raises mash pH, which can extract harsh husk tannins.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. High mash pH above 5.6 increases tannin extraction from grain husks."
+    },
+    {
+      "q": "True or False: A judge can earn non-judging experience points by taking or grading BJCP exams.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Exam administration and grading award non-judging service points."
+    },
+    {
+      "q": "True or False: Lightstruck 'skunkiness' can develop in clear glass bottles in as little as a few minutes under direct sunlight.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. UV light rapidly degrades hop isohumulones into 3-methyl-2-butene-1-thiol."
+    },
+    {
+      "q": "True or False: Alpha amylase enzymes operate optimally at lower temperatures than beta amylase.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Beta amylase operates lower (140–149°F / 60–65°C); Alpha amylase operates higher (154–162°F / 68–72°C)."
+    }
+    {
+      "q": "True or False: The addition of gypsum (calcium sulfate) lowers mash pH.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Calcium ions react with phytin and phosphates in malt to liberate hydrogen ions, lowering pH."
+    },
+    {
+      "q": "True or False: A competition director is allowed to judge in a category where their spouse has entered a beer.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Conflict of interest rules strictly prohibit judging entries from immediate family members."
+    },
+    {
+      "q": "True or False: Cold break forms during the slow cooling of wort after boiling.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Rapid chilling precipitates protein-tannin complexes known as cold break."
+    },
+    {
+      "q": "True or False: High levels of dimethyl sulfide (DMS) produce a distinct cooked corn or canned tomato aroma.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. DMS is characterized by cooked corn, creamed corn, or vegetable notes."
+    },
+    {
+      "q": "True or False: Lactic acid bacteria are Gram-positive organisms.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Both Lactobacillus and Pediococcus are Gram-positive bacteria."
+    },
+    {
+      "q": "True or False: Oxidation of beer during packaging generally decreases perceived bitterness stability.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Oxygen degrades hop iso-alpha acids and causes bitterness to become harsh or fade."
+    },
+    {
+      "q": "True or False: Fusel alcohols are higher molecular weight alcohols produced by yeast under stress or high temperatures.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. High temperatures and insufficient nutrients promote fusel alcohol synthesis."
+    },
+    {
+      "q": "True or False: Brettanomyces can produce both esterase and beta-glucosidase enzymes.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. These enzymes allow Brettanomyces to break down complex glycosides and wood sugars."
+    },
+    {
+      "q": "True or False: The recommended serving temperature for evaluating aromatics on BJCP judging flights is 32°F (0°C).",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Serving beer at freezing temperatures suppresses volatile aromatic compounds; 45–55°F is preferred."
+    },
+    {
+      "q": "True or False: Phenolic off-flavors described as 'clove-like' are derived from 4-vinylguaiacol.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Ferulic acid in grain is converted by POF+ yeast into 4-vinylguaiacol (clove aroma)."
+    },
+    {
+      "q": "True or False: Yeast autolysis releases fatty acids that lead to rubbery, soapy, or meaty off-flavors.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Cell rupture frees hydrolytic enzymes and fatty acids resulting in rubber/brothy notes."
+    },
+    {
+      "q": "True or False: The total points awarded on a standard BJCP beer scoresheet sum up to 100 points.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Standard BJCP beer scoresheets are scored out of 50 total points."
+    },
+    {
+      "q": "True or False: A Master-level judge receives 1 judging point for every 8 hours of judging experience.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. BJCP experience points are awarded per session/day judged, not on an 8-hour hourly clock."
+    },
+    {
+      "q": "True or False: Step mashing involves adding boiling water or applying direct heat to move through enzymatic rests.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Step mashing targets specific temperature rests (e.g. beta-glucanase, protein, beta, and alpha amylase rests)."
+    },
+    {
+      "q": "True or False: Iso-alpha acids are formed when alpha acids undergo thermal isomerization during the wort boil.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Boiling heat isomerizes insoluble alpha acids into soluble, bitter iso-alpha acids."
+    },
+    {
+      "q": "True or False: Wild yeast contamination by Saccharomyces cerevisiae var. diastaticus can cause over-attenuation and gushing.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Diastaticus secretes glucoamylase, fermenting complex dextrins down to low gravities."
+    },
+    {
+      "q": "True or False: Mashing in at 113–122°F (45–50°C) targets the protein rest to break down large proteins.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Peptidase and proteinase enzymes are active in this range."
+    },
+    {
+      "q": "True or False: High levels of calcium ions in brewing water slow down yeast flocculation.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Calcium ions promote yeast flocculation and aid protein precipitation."
+    },
+    {
+      "q": "True or False: Maillard reactions require high heat and occur between amino acids and reducing sugars.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Non-enzymatic browning from sugar-amino acid reactions creates complex melanoidin flavors."
+    },
+    {
+      "q": "True or False: An entry with a score of 25 falls in the 'Good' score range on a BJCP scoresheet.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. The 'Good' scoring range spans 21 to 29 points."
+    },
+    {
+      "q": "True or False: The flavor compound 2,3-butanedione is better known by its common name, diacetyl.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Diacetyl's chemical structure is 2,3-butanedione."
+    },
+    {
+      "q": "True or False: The BJCP was created as a joint venture between the American Homebrewers Association and the Home Wine & Beer Trade Association.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. The AHA and HWBTA jointly established the program in 1985."
+    },
+    {
+      "q": "True or False: A judge must achieve an 85% on the Master exam to be awarded the Certified rank.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Certified rank requires a score of 70% or higher on both exams."
+    },
+    {
+      "q": "True or False: Adding calcium chloride to mash water enhances soft malt sweetness and fullness.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Chloride ions emphasize round malt character, whereas sulfate ions emphasize hop crispness."
+    },
+    {
+      "q": "True or False: Pitching yeast at high rates decreases ester production.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Higher cell counts limit cell division cycles, reducing total ester synthesis."
+    },
+    {
+      "q": "True or False: Sour mash techniques rely on thermophilic Lactobacillus strains at 110–120°F (43–49°C).",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Holding unboiled wort at warm temperatures favors rapid lactic acid production by Lactobacillus."
+    },
+    {
+      "q": "True or False: Esters are chemical compounds formed by the reaction of an alcohol with a fatty acid.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Yeast acetyltransferase enzymes combine alcohols with acyl-CoA molecules to form aromatic esters."
+    },
+    {
+      "q": "True or False: Direct sun exposure degrades hop alpha acids in unhopped beers.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Lightstruck reaction requires isomerized alpha acids from hops; unhopped beer will not skunk."
+    },
+    {
+      "q": "True or False: High levels of dissolved iron in brewing water can impart a metallic coin-like taste.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Iron levels above 0.05 mg/L produce metallic off-flavors and promote oxidation."
+    },
+    {
+      "q": "True or False: A BJCP score of 13 represents the minimum floor score for an entry.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. 13 points is the minimum allowable score on a BJCP scoresheet."
+    }
+  ],
+  "mead_additions_batch1": [
+    {
+      "q": "Which honey varietal is famous for distinct marshmallow, vanilla, and marzipan notes?",
+      "options": ["Alfalfa", "Meadowfoam", "Buckwheat", "Orange Blossom"],
+      "a": 1,
+      "exp": "Meadowfoam honey imparts pronounced toasted marshmallow and vanilla flavors."
+    },
+    {
+      "q": "What defines a Cyser (M2A)?",
+      "options": ["Mead made with grape juice", "Mead made with apple juice or cider", "Mead made with spices", "Mead brewed with malted barley"],
+      "a": 1,
+      "exp": "Cyser is a melomel produced specifically with apples or apple juice."
+    },
+    {
+      "q": "What is a Pyment (M2B)?",
+      "options": ["A mead made with grapes or grape juice", "A mead made with stone fruit", "A mead seasoned with peppers", "A low-alcohol session mead"],
+      "a": 0,
+      "exp": "Pyment is a fruit mead (melomel) fermented with red or white wine grapes."
+    },
+    {
+      "q": "What defines a Metheglin (M3A)?",
+      "options": ["A mead made with fruit only", "A mead conditioned with oak wood", "A mead brewed with spices, herbs, or spices", "A caramelized boiled honey mead"],
+      "a": 2,
+      "exp": "Metheglin is traditional mead spiced with culinary herbs or spices."
+    },
+    {
+      "q": "What is the standard density threshold distinguishing a Sack Mead from standard meads?",
+      "options": ["OG below 1.035", "OG above 1.110+", "FG strictly at 0.990", "ABV under 5%"],
+      "a": 1,
+      "exp": "Sack meads are high-gravity, strong, sweet meads starting above 1.110 OG."
+    },
+    {
+      "q": "What is a Hydromel?",
+      "options": ["A high-gravity dessert mead", "A light, session-strength mead (ABV 3.5–7.5%)", "A caramelized mead", "A sparkling apple pyment"],
+      "a": 1,
+      "exp": "Hydromels are session-strength, lower-alcohol meads."
+    },
+    {
+      "q": "What chemical additive stops active yeast reproduction prior to backsweetening mead?",
+      "options": ["Potassium Sorbate combined with Potassium Metabisulfite", "Calcium Sulfate", "Lactic Acid", "Irish Moss"],
+      "a": 0,
+      "exp": "Potassium sorbate prevents yeast cell division, while metabisulfite scavenges oxygen and inhibits bacteria."
+    },
+    {
+      "q": "Why is free amino nitrogen (FAN / YAN) management critical in meadmaking?",
+      "options": ["Honey naturally contains abundant protein that causes haze", "Honey is almost completely devoid of nitrogen and nutrients needed by yeast", "To lower final gravity below 0.990", "To clarify dark honey color"],
+      "a": 1,
+      "exp": "Honey contains pure sugars but virtually no nitrogen, requiring nutrient additions to avoid yeast stress."
+    },
+    {
+      "q": "Which honey varietal is dark purple/black with strong molasses and treacle character?",
+      "options": ["Clover", "Buckwheat", "Fireweed", "Orange Blossom"],
+      "a": 1,
+      "exp": "Buckwheat honey is dark, pungent, rich in minerals, and tastes like molasses and treacle."
+    },
+    {
+      "q": "What is a Rhodomel?",
+      "options": ["A mead made with rose hips or rose petals", "A mead brewed with rhubard", "A mead infused with red currant", "A spiced chili mead"],
+      "a": 0,
+      "exp": "Rhodomel is a traditional metheglin made with rose petals or rose hips."
+    },
+    {
+      "q": "What is Capsicumel?",
+      "options": ["Mead made with chili peppers", "Mead made with capsicum berries", "Mead brewed with capers", "Mead aged in chestnut barrels"],
+      "a": 0,
+      "exp": "Capsicumel is a spiced mead made with hot or sweet chili peppers."
+    },
+    {
+      "q": "What is Acerglyn?",
+      "options": ["Mead fermented with maple syrup and honey", "Mead made with acorns", "Mead flavored with celery", "Mead fermented with sour cherries"],
+      "a": 0,
+      "exp": "Acerglyn is a specialty mead combining maple syrup and honey."
+    },
+    {
+      "q": "Which honey variety stays liquid for years without crystallizing due to high fructose ratio?",
+      "options": ["Tupelo", "Alfalfa", "Clover", "Canola"],
+      "a": 0,
+      "exp": "Tupelo honey's high fructose-to-glucose ratio prevents natural crystallization."
+    },
+    {
+      "q": "What is the primary role of potassium metabisulfite (Campden) in mead preparation?",
+      "options": ["To raise pH", "To act as an antioxidant and antimicrobial stabilizer", "To add body and sweetness", "To clarify yeast haze"],
+      "a": 1,
+      "exp": "Metabisulfite releases free SO2 to prevent oxidation and suppress wild bacteria."
+    },
+    {
+      "q": "Which fruit addition contributes high natural tannin and deep purple color to a Melomel?",
+      "options": ["Banana", "Black Currant", "Yellow Peach", "Green Apple"],
+      "a": 1,
+      "exp": "Black currant provides intense dark fruit color, acidity, and structure."
+    }
+    {
+      "q": "What is the traditional name for a mead made with spiced honey and apples?",
+      "options": ["Spiced Cyser", "Braggot", "Rhodomel", "Sack Pyment"],
+      "a": 0,
+      "exp": "A mead combining apple juice (cyser) and spices is classified as a Spiced Cyser."
+    },
+    {
+      "q": "Which acid is typically added to adjust balance in finished mead if acidity is flabby?",
+      "options": ["Tartaric or Malic acid", "Hydrochloric acid", "Sulfuric acid", "Butyric acid"],
+      "a": 0,
+      "exp": "Food-grade tartaric, malic, or citric acid blends are used to adjust acid balance in mead."
+    },
+    {
+      "q": "What honey variety is produced from citrus blossoms and exhibits floral, orange-zest aromatics?",
+      "options": ["Orange Blossom", "Tupelo", "Buckwheat", "Heather"],
+      "a": 0,
+      "exp": "Orange Blossom honey carries citrus and floral notes."
+    },
+    {
+      "q": "What defines a Sweet Mead in terms of Final Gravity (FG)?",
+      "options": ["0.990–1.002", "1.002–1.010", "1.010–1.025+", "1.040–1.060"],
+      "a": 2,
+      "exp": "Sweet meads generally finish with an FG of 1.010 to 1.025 or higher."
+    },
+    {
+      "q": "What defines a Dry Mead in terms of Final Gravity (FG)?",
+      "options": ["0.996–1.010", "1.012–1.020", "1.022–1.035", "1.040+"],
+      "a": 0,
+      "exp": "Dry meads finish between 0.996 and 1.010 FG."
+    },
+    {
+      "q": "Which fruit addition produces a classic 'Kriek-like' character in a Melomel?",
+      "options": ["Tart/Sour Cherries", "Sweet Yellow Cherries", "Blackberries", "Strawberries"],
+      "a": 0,
+      "exp": "Tart sour cherries contribute acidity and deep stone-fruit structure to melomels."
+    },
+    {
+      "q": "What visual defect in mead can result from unprecipitated honey proteins or pectin?",
+      "options": ["Persistent haze or cloudiness", "Dark purple color", "Effervescence", "Gushing"],
+      "a": 0,
+      "exp": "Pectin from fruit or raw proteins from unfiltered honey create persistent hazes unless treated with enzymes or finings."
+    },
+    {
+      "q": "What enzyme is added to fruit melomel musts to break down cell walls and prevent pectin haze?",
+      "options": ["Pectic Enzyme (Pectinase)", "Alpha Amylase", "Beta Glucanase", "Papain"],
+      "a": 0,
+      "exp": "Pectinase breaks down long-chain pectin molecules from fruit additions."
+    },
+    {
+      "q": "What honey variety from Northern Europe is known for thixotropic gel-like viscosity and intense herbal flavors?",
+      "options": ["Heather Honey", "Clover Honey", "Alfalfa Honey", "Raspberry Honey"],
+      "a": 0,
+      "exp": "Heather honey is famous for its thixotropic gel structure and pungent, bitter-herbal character."
+    },
+    {
+      "q": "What is the primary benefit of degassing mead during early active fermentation?",
+      "options": ["Releasing trapped CO2 to prevent yeast inhibition and preventing foam-overs", "Raising gravity", "Increasing tannin levels", "Lowering acidity"],
+      "a": 0,
+      "exp": "Releasing dissolved CO2 reduces carbonic acid strain on yeast and prevents nucleation boil-overs when adding nutrients."
+    },
+    {
+      "q": "What defines a Metheglin infused specifically with vanilla beans?",
+      "options": ["Spiced Mead (M3A)", "Cyser (M2A)", "Braggot (M4A)", "Traditional Mead (M1A)"],
+      "a": 0,
+      "exp": "Vanilla is classified as a spice addition under Metheglin (M3A)."
+    },
+    {
+      "q": "Which compound is responsible for hot, harsh, burn-in-the-throat off-flavors in young mead?",
+      "options": ["Fusel Alcohols", "Diacetyl", "Acetaldehyde", "Lactic Acid"],
+      "a": 0,
+      "exp": "High fermentation temperatures and low nutrient levels cause yeast to synthesize harsh fusel alcohols."
+    },
+    {
+      "q": "What is the purpose of adding oak staves or cubes to a traditional mead?",
+      "options": ["Adding tannin structure, vanilla/toast complexity, and enhanced mouthfeel", "Lowering alcohol level", "Increasing clarity", "Removing sulfur"],
+      "a": 0,
+      "exp": "Oak introduces wood tannins, vanillin, and lactones that balance honey sweetness."
+    },
+    {
+      "q": "What defines a Semi-Sweet Mead in terms of Final Gravity (FG)?",
+      "options": ["1.006–1.015", "1.016–1.025", "1.026–1.040", "1.042–1.055"],
+      "a": 0,
+      "exp": "Semi-sweet meads fall in the 1.006 to 1.015 FG range."
+    },
+    {
+      "q": "What chemical oxidation product causes aged mead to taste like sherry, cardboard, or stale nuts?",
+      "options": ["Acetaldehyde / Oxidized alcohols", "Isoamyl acetate", "Hydrogen sulfide", "4-vinylguaiacol"],
+      "a": 0,
+      "exp": "Oxygen exposure over time oxidizes ethanol into acetaldehyde and aldehydes, creating stale sherry notes."
+    },
+    {
+      "q": "What is the minimum percentage of honey malt required in a Braggot (M4A)?",
+      "options": ["There is no fixed percentage, but honey character must be balanced with malt", "100%", "50%", "5%"],
+      "a": 0,
+      "exp": "Braggot guidelines require harmonious expression of both honey and malt without strict rigid ingredient cutoffs."
+    },
+    {
+      "q": "Which spice addition in Metheglin delivers eugenol aromatics reminiscent of baking spices?",
+      "options": ["Clove", "Black Pepper", "Ginger", "Capsicum"],
+      "a": 0,
+      "exp": "Clove contains eugenol, giving rich baking-spice aromas."
+    },
+    {
+      "q": "What flavor impact does high acidity have on a sweet traditional mead?",
+      "options": ["It balances residual sugar so the mead does not taste cloying", "It increases honey aroma", "It causes immediate precipitation", "It turns the mead black"],
+      "a": 0,
+      "exp": "Acidity cuts through heavy honey sugars to prevent a cloying, heavy mouthfeel."
+    },
+    {
+      "q": "What process involves back-adding fresh honey to a stabilized, dry-fermented mead?",
+      "options": ["Backsweetening", "Keeving", "Chaptalization", "Decoction"],
+      "a": 0,
+      "exp": "Backsweetening adds unfermented honey back into stabilized mead to dial in sweetness."
+    },
+    {
+      "q": "Which honey varietal from the Pacific Northwest offers light amber color with distinct berry notes?",
+      "options": ["Blackberry Blossom Honey", "Buckwheat Honey", "Avocado Honey", "Eucalyptus Honey"],
+      "a": 0,
+      "exp": "Blackberry Blossom honey provides soft floral and subtle berry highlights."
+    },
+    {
+      "q": "What off-flavor produces a vinegar aroma caused by Acetobacter contamination in mead?",
+      "options": ["Acetic Acid", "Diacetyl", "DMS", "Isovaleric Acid"],
+      "a": 0,
+      "exp": "Acetobacter metabolizes ethanol in the presence of oxygen to produce acetic acid (vinegar)."
+    },
+    {
+      "q": "What honey varietal from California produces an intensely dark, rich, buttery, and slightly herbal mead?",
+      "options": ["Avocado Honey", "Clover Honey", "Fireweed Honey", "Sweet Sweetgum Honey"],
+      "a": 0,
+      "exp": "Avocado honey is very dark, rich, and features molasses and buttery notes."
+    },
+    {
+      "q": "Which additive is used to clarify persistent protein haze in mead by binding negatively charged particles?",
+      "options": ["Bentonite", "Calcium Chloride", "Gypsum", "Ascorbic Acid"],
+      "a": 0,
+      "exp": "Bentonite clay binds negatively charged proteins to clarify mead."
+    },
+    {
+      "q": "What is a Morat?",
+      "options": ["A mead made with mulberries", "A mead made with blackberries", "A mead made with quince", "A mead made with figs"],
+      "a": 0,
+      "exp": "Morat is a historical melomel made with mulberries."
+    },
+    {
+      "q": "What is a Omphacomel?",
+      "options": ["A mead made with verjuice (unripe grape juice)", "A mead made with oranges", "A mead made with pomegranate", "A mead made with plums"],
+      "a": 0,
+      "exp": "Omphacomel is an ancient style combining honey with juice from sour, unripe grapes."
+    },
+    {
+      "q": "Which fining agent derived from shellfish chitin binds positively charged yeast cells in mead?",
+      "options": ["Chitosan", "Gelatin", "Isinglass", "Bentonite"],
+      "a": 0,
+      "exp": "Chitosan carries a positive charge that attracts and settles yeast cells."
+    },
+    {
+      "q": "What sensory trait distinguishes a sparkling mead from a still mead?",
+      "options": ["Noticeable carbonation and effervescence on the tongue", "Darker color", "Higher alcohol", "Higher tannin"],
+      "a": 0,
+      "exp": "Sparkling meads carry active carbonation ranging from light spritz to champagne-like effervescence."
+    },
+    {
+      "q": "Which honey varietal from Australia carries high medicinal, menthol, and herbal aromas?",
+      "options": ["Eucalyptus Honey", "Alfalfa Honey", "Orange Blossom Honey", "Tupelo Honey"],
+      "a": 0,
+      "exp": "Eucalyptus honey carries herbal, menthol, and medicinal notes."
+    },
+    {
+      "q": "What chemical instability occurs when a mead is backsweetened without prior chemical stabilization?",
+      "options": ["Fermentation restarts in the bottle, risking exploded corks/bottles", "Immediate color loss", "Rapid oxidation", "Excessive tannin formation"],
+      "a": 0,
+      "exp": "Adding sugar without killing/inhibiting yeast triggers renewed fermentation in sealed containers."
+    },
+    {
+      "q": "What defines a session-strength mead (Hydromel)?",
+      "options": ["ABV range between 3.5% and 7.5%", "ABV range between 10% and 14%", "ABV range between 15% and 20%", "ABV over 20%"],
+      "a": 0,
+      "exp": "Hydromels are light session meads between 3.5% and 7.5% ABV."
+    }
+  ],
+  "cider_additions_batch1": [
+    {
+      "q": "What apple classification provides high acidity and low tannin?",
+      "options": ["Sweet", "Sharp", "Bittersweet", "Bittersharp"],
+      "a": 1,
+      "exp": "Sharp cider apples provide acidity without contributing astringent tannins."
+    },
+    {
+      "q": "What apple classification provides high acidity AND high tannin?",
+      "options": ["Sweet", "Sharp", "Bittersweet", "Bittersharp"],
+      "a": 3,
+      "exp": "Bittersharp apples combine high malic acid with high polyphenolic tannins."
+    },
+    {
+      "q": "What apple classification provides low acidity AND high tannin?",
       "options": ["Sweet", "Sharp", "Bittersweet", "Bittersharp"],
       "a": 2,
-      "exp": "Bittersweet apples provide high tannin/astringency and low malic acid."
+      "exp": "Bittersweet apples yield traditional English/French cider structure (low acid, high tannin)."
+    },
+    {
+      "q": "What primary acid dominates apple juice and cider?",
+      "options": ["Lactic acid", "Malic acid", "Tartaric acid", "Citric acid"],
+      "a": 1,
+      "exp": "Malic acid is the primary organic acid in apples."
+    },
+    {
+      "q": "What process converts harsh malic acid into softer lactic acid in traditional ciders?",
+      "options": ["Keeving", "Malolactic Fermentation (MLF)", "Chaptalization", "Pasteurization"],
+      "a": 1,
+      "exp": "Malolactic fermentation converts sharp malic acid into smooth lactic acid."
+    },
+    {
+      "q": "What defines a French Cidre (C1D)?",
+      "options": ["Bone dry and artificially carbonated", "Naturally sweet, low ABV (3–6%), produced via keeving with bittersweet apples", "High alcohol (11%) with brown sugar", "Flavored with hops"],
+      "a": 1,
+      "exp": "French cider is naturally sweet, lower alcohol, and keeved."
+    },
+    {
+      "q": "What defines Spanish Sidra (C1E)?",
+      "options": ["Very sweet and spiced", "Bone dry, cloudy, tart, wild-fermented with light acetic acidity", "Boiled concentrated juice", "Pear-based dessert cider"],
+      "a": 1,
+      "exp": "Asturian/Basque Sidra is bone dry, tart, wild-fermented, and slightly volatile."
+    },
+    {
+      "q": "What sugar alcohol in perry pears remains unfermented, leaving natural body and sweetness?",
+      "options": ["Sorbitol", "Xylitol", "Lactose", "Dextrose"],
+      "a": 0,
+      "exp": "Sorbitol cannot be fermented by standard yeast, maintaining mouthfeel and sweetness in perry."
+    },
+    {
+      "q": "What is Chaptalization in cider making?",
+      "options": ["Adding sugar to apple juice to increase potential alcohol", "Boiling juice to kill bacteria", "Filtering through charcoal", "Freezing apple juice"],
+      "a": 0,
+      "exp": "Chaptalization is supplementing juice with sugar prior to fermentation."
+    },
+    {
+      "q": "What defines New England Cider (C2A)?",
+      "options": ["Low alcohol session cider", "Strong cider (7–11% ABV) fermented with adjuncts like brown sugar, molasses, or raisins", "Wild sour cider poured from height", "Non-alcoholic sweet juice"],
+      "a": 1,
+      "exp": "New England cider is a robust colonial style fortified with sugars and aged in wood."
+    },
+    {
+      "q": "How is Ice Cider (C2C) produced without adding sugar?",
+      "options": ["Boiling juice down over open flame", "Freeze-concentrating juice or apples to yield high-gravity starting must", "Adding liquid honey", "Injecting corn syrup"],
+      "a": 1,
+      "exp": "Ice cider uses natural cold to freeze water out of juice/apples, concentrating natural sugars."
+    },
+    {
+      "q": "What off-flavor in cider resembles rotten eggs and stems from nitrogen starvation?",
+      "options": ["Acetaldehyde", "Hydrogen Sulfide (H2S)", "Ethyl Acetate", "Diacetyl"],
+      "a": 1,
+      "exp": "Low nitrogen in apple juice stresses yeast, producing H2S sulfur notes."
+    },
+    {
+      "q": "What defines a Common Perry (C4A)?",
+      "options": ["Made from tannic perry pears", "Made from culinary/table pears (e.g. Bartlett, Bosc)", "Made with 50% apple juice", "Boiled pear syrup"],
+      "a": 1,
+      "exp": "Common Perry utilizes eating pears rather than tannic perry pears."
+    },
+    {
+      "q": "What defect gives cider a nail-polish-remover aroma due to high ethyl acetate?",
+      "options": ["Solvent / Volatile Ester flaw", "Mousiness", "Ropeyness", "Sorbitol haze"],
+      "a": 0,
+      "exp": "Excess ethyl acetate yields harsh solvent or acetone aromatics."
+    },
+    {
+      "q": "What condition causes cider to become thick, oily, and slimy due to bacterial contamination?",
+      "options": ["Keeving", "Ropiness (Pedio/Lacto slime formation)", "Bloom", "Chaptalization"],
+      "a": 1,
+      "exp": "Ropiness is caused by exopolysaccharides produced by lactic acid bacteria."
+    }
+    {
+      "q": "What apple classification provides low acidity AND low tannin?",
+      "options": ["Sweet", "Sharp", "Bittersweet", "Bittersharp"],
+      "a": 0,
+      "exp": "Sweet cider apples (and standard eating apples) provide low acidity and low tannin."
+    },
+    {
+      "q": "Which French cider region is world-famous for keeved, naturally sweet AOC ciders?",
+      "options": ["Normandy (Pays d'Auge) and Brittany", "La Rioja", "Bavaria", "Kent"],
+      "a": 0,
+      "exp": "Normandy and Brittany are the premier French keeved cider regions."
+    },
+    {
+      "q": "What defines an English Cider (C1C) sensory profile?",
+      "options": ["High tannin, dry finish, medium-to-high body, bittersweet apple character, and barnyard/farmhouse MLF notes", "High sweetness, low tannin, green apple candy notes", "High hops and citrus", "High vinegar acidity"],
+      "a": 0,
+      "exp": "English ciders from the West Country highlight bittersweet apple tannins and earthy MLF notes."
+    },
+    {
+      "q": "What traditional pouring method aerates Spanish Sidra to volatilize aromatics and create fleeting effervescence?",
+      "options": ["Escanciar (pouring from height above head into glass)", "Nitro dispense", "Decanting through cheesecloth", "Warm mull heating"],
+      "a": 0,
+      "exp": "Escanciar involves pouring cider from high overhead into a glass held at hip height."
+    },
+    {
+      "q": "What compound in pears causes Perry to taste sweeter than a cider of identical Final Gravity?",
+      "options": ["Sorbitol", "Sucrose", "Lactose", "Maltose"],
+      "a": 0,
+      "exp": "Sorbitol is an unfermentable sugar alcohol natural to perry pears that contributes residual sweetness."
+    },
+    {
+      "q": "What acid balance adjustment is often needed when making cider exclusively from culinary/eating apples?",
+      "options": ["Adding malic or tartaric acid and tannins to build structure", "Adding baking soda to lower acid", "Boiling juice to kill tannin", "Adding salt"],
+      "a": 0,
+      "exp": "Culinary apples lack tannins and can lack acid, requiring additions for proper balance."
+    },
+    {
+      "q": "What key ingredient distinguishes a New England Cider (C2A) from a Common Cider (C1A)?",
+      "options": ["Addition of brown sugar, molasses, raisins, or honey, and aging in wood", "Use of 100% perry pears", "Kettle souring with Lactobacillus", "Cold freeze concentration"],
+      "a": 0,
+      "exp": "New England cider is a strong colonial style fortified with adjunct sugars."
+    },
+    {
+      "q": "How does Ice Cider (C2C) achieve high sugar concentration naturally?",
+      "options": ["Cryoconcentration of juice or cryoextraction of frozen apples in winter cold", "Boiling apple juice", "Adding white table sugar", "Adding maple syrup"],
+      "a": 0,
+      "exp": "Freezing apple juice or apples outdoors concentrates natural sugars as water freezes out."
+    },
+    {
+      "q": "What visual characteristic is typical for traditional Spanish Sidra (C1E)?",
+      "options": ["Slightly cloudy or hazy, pale yellow, with low persistent head", "Brilliant clear ruby red", "Deep jet black", "Massive thick white head"],
+      "a": 0,
+      "exp": "Spanish Sidra is typically unfiltered, pale yellow, and slightly hazy."
+    },
+    {
+      "q": "Which sulfur off-flavor compound produces a burnt match odor in cider?",
+      "options": ["Sulfur Dioxide (SO2)", "Hydrogen Sulfide (H2S)", "Dimethyl Sulfide (DMS)", "Ethyl Mercaptan"],
+      "a": 0,
+      "exp": "Free SO2 added as a preservative exhibits a sharp burnt match smell when excessive."
+    },
+    {
+      "q": "What chemical transformation occurs during Malolactic Fermentation (MLF) in cider?",
+      "options": ["Malic acid is converted into lactic acid and CO2 by Oenococcus oeni bacteria", "Sugar is converted into alcohol by yeast", "Pectin is converted into ethanol", "Citric acid is converted into acetic acid"],
+      "a": 0,
+      "exp": "MLF bacteria convert sharp malic acid into softer lactic acid."
+    },
+    {
+      "q": "What term describes the floating brown jelly cap formed during the keeving process?",
+      "options": ["Chapeau Brun", "Trub", "Krausen", "Flor"],
+      "a": 0,
+      "exp": "Pectin gel reacting with calcium forms the 'chapeau brun' (brown hat) in keeving."
+    },
+    {
+      "q": "Which cider style requires declaration of added spices, such as cinnamon, nutmeg, or allspice?",
+      "options": ["Spiced Cider (C2D)", "Common Cider (C1A)", "French Cidre (C1D)", "Spanish Sidra (C1E)"],
+      "a": 0,
+      "exp": "Ciders brewed with spices are classified under Spiced / Botanical Cider (C2D)."
+    },
+    {
+      "q": "What condition causes cider to taste like mousy, sweaty horse blankets due to wild yeast activity?",
+      "options": ["Brettanomyces contamination", "Acetaldehyde overload", "High sorbitol", "Chaptalization"],
+      "a": 0,
+      "exp": "Brettanomyces creates volatile phenols (4-ethylphenol / 4-ethylguaiacol) giving barnyard notes."
+    },
+    {
+      "q": "What primary flavor profile distinguishes Heirloom Cider (C1B) from Common Culinary Cider (C1A)?",
+      "options": ["Greater complexity, higher tannin, better acid structure, and rich apple character", "Lower alcohol and thin body", "Artificial apple flavor", "Heavy smoke flavor"],
+      "a": 0,
+      "exp": "Heirloom apples (like Roxbury Russet or Baldwin) provide richer tannins, acid, and sugar balance."
+    },
+    {
+      "q": "Which defect produces a solvent-like, nail-polish aroma in cider?",
+      "options": ["Ethyl Acetate", "Diacetyl", "Lactic Acid", "Isovaleric Acid"],
+      "a": 0,
+      "exp": "High levels of ethyl acetate create harsh chemical or nail-polish notes."
+    },
+    {
+      "q": "What apple variety is famous as a classic English bittersweet cider apple?",
+      "options": ["Dabinett or Yarlington Mill", "Granny Smith", "Red Delicious", "Honeycrisp"],
+      "a": 0,
+      "exp": "Dabinett and Yarlington Mill are classic tannic English bittersweet cider apples."
+    },
+    {
+      "q": "What apple variety is famous as a traditional French bittersweet cider apple?",
+      "options": ["Bedan or Michelin", "McIntosh", "Fuji", "Gala"],
+      "a": 0,
+      "exp": "Bedan, Michelin, and Binet Rouge are traditional French bittersweet cider varieties."
+    },
+    {
+      "q": "What visual appearance is required for Ice Cider (C2C)?",
+      "options": ["Brilliant clarity, deep yellow to amber/copper color, and high viscosity", "Cloudy green", "Jet black", "Pale straw with heavy foam"],
+      "a": 0,
+      "exp": "Ice Cider is clear, viscous, golden-to-amber, and clings to the glass."
+    },
+    {
+      "q": "What structural role do tannins play in cider sensory evaluation?",
+      "options": ["Providing mouthfeel, astringency, bitterness, and drying structure on the palate", "Increasing carbonation", "Lowering potential alcohol", "Drying out hop aroma"],
+      "a": 0,
+      "exp": "Polyphenolic tannins contribute astringency, body, and bitterness to cider."
+    },
+    {
+      "q": "What defines a Wood-Aged Cider (C2F)?",
+      "options": ["Cider aged in wooden barrels or conditioned with wood staves/chips", "Cider made with pine apples", "Cider fermented with sawdust", "Cider boiled in wooden pots"],
+      "a": 0,
+      "exp": "Wood-Aged Cider gains oak, vanilla, or spirit complexity from wooden barrel contact."
+    },
+    {
+      "q": "What chemical off-flavor gives cider a green-apple or freshly bruised apple aroma when under-attenuated or rushed?",
+      "options": ["Acetaldehyde", "Diacetyl", "Dimethyl Sulfide", "Chlorophenol"],
+      "a": 0,
+      "exp": "Acetaldehyde is an intermediate fermentation compound smelling like green cut apples."
+    },
+    {
+      "q": "Which measuring tool measures total dissolved solids/sugar density in unfermented apple juice?",
+      "options": ["Hydrometer or Refractometer", "pH meter", "Thermometer", "Spectrophotometer"],
+      "a": 0,
+      "exp": "A hydrometer or refractometer measures specific gravity (°Brix / SG) of fruit juice."
+    },
+    {
+      "q": "What process involves adding sulfur dioxide (SO2) to fresh crushed apple must before pitching yeast?",
+      "options": ["Sulfite treatment to suppress wild bacteria and wild yeast", "Keeving", "Chaptalization", "Malolactic fermentation"],
+      "a": 0,
+      "exp": "Sulfites inhibit spoilage bacteria and wild yeast prior to pitching pure yeast strains."
+    },
+    {
+      "q": "What defines a Hopped Cider (C2D)?",
+      "options": ["Cider conditioned with hops to add herbal, floral, or citrus aromas", "Cider fermented with malted barley", "Cider boiled with oak", "Cider flavored with pine cones"],
+      "a": 0,
+      "exp": "Hopped ciders use hop additions to complement natural apple fruitiness."
+    },
+    {
+      "q": "What cider fault smells like buttery movie-theater popcorn caused by wild lactic bacteria or yeast strain excess?",
+      "options": ["Diacetyl", "Acetaldehyde", "H2S", "Isovaleric Acid"],
+      "a": 0,
+      "exp": "Diacetyl (2,3-butanedione) yields a distinct buttery or butterscotch aroma."
+    },
+    {
+      "q": "What is the typical alcohol range (ABV) for French Cidre (C1D)?",
+      "options": ["3.0–6.0%", "7.5–9.5%", "10.0–13.0%", "14.0–18.0%"],
+      "a": 0,
+      "exp": "French keeved ciders are low alcohol, typically between 3.0% and 6.0% ABV."
+    },
+    {
+      "q": "What is the typical alcohol range (ABV) for New England Cider (C2A)?",
+      "options": ["7.0–11.0%", "2.0–4.0%", "12.0–15.0%", "16.0–20.0%"],
+      "a": 0,
+      "exp": "New England cider is a strong style fortified to 7.0–11.0% ABV."
+    },
+    {
+      "q": "What apple variety is commonly used as a high-acid sharp apple in American cider making?",
+      "options": ["Granny Smith or Rhode Island Greening", "Red Delicious", "Gala", "Golden Delicious"],
+      "a": 0,
+      "exp": "Granny Smith and Rhode Island Greening contribute clean malic acidity."
+    },
+    {
+      "q": "What sensory trait distinguishes a Perry from a Cider?",
+      "options": ["Pear fruit character, subtle floral aromatics, residual sorbitol sweetness, and distinct pear tannins", "Dark black color", "High roasted grain bitterness", "Heavy peat smoke aroma"],
+      "a": 0,
+      "exp": "Perry is fermented from pears, offering delicate pear fruitiness and sorbitol body."
     }
   ]
 }
