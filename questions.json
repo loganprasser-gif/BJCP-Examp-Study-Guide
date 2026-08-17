@@ -1,5 +1,3 @@
-JSON
-
 {
   "critical": [
     {
@@ -181,7 +179,7 @@ JSON
       "options": ["American IPA (21A)", "Double IPA (22A)", "American Porter (20A)", "Strong Bitter (11C)"],
       "a": 1,
       "exp": "Double IPA (22A) has an IBU range of 60–120 IBU."
-    }
+    },
     {
       "q": "What is the acceptable Original Gravity (OG) range for German Pils (5D)?",
       "options": ["1.028–1.040", "1.044–1.050", "1.056–1.070", "1.072–1.090"],
@@ -483,7 +481,7 @@ JSON
       "options": ["True", "False"],
       "a": 1,
       "exp": "False. Beta amylase operates lower (140–149°F / 60–65°C); Alpha amylase operates higher (154–162°F / 68–72°C)."
-    }
+    },
     {
       "q": "True or False: The addition of gypsum (calcium sulfate) lowers mash pH.",
       "options": ["True", "False"],
@@ -755,7 +753,7 @@ JSON
       "options": ["Banana", "Black Currant", "Yellow Peach", "Green Apple"],
       "a": 1,
       "exp": "Black currant provides intense dark fruit color, acidity, and structure."
-    }
+    },
     {
       "q": "What is the traditional name for a mead made with spiced honey and apples?",
       "options": ["Spiced Cyser", "Braggot", "Rhodomel", "Sack Pyment"],
@@ -1027,7 +1025,7 @@ JSON
       "options": ["Keeving", "Ropiness (Pedio/Lacto slime formation)", "Bloom", "Chaptalization"],
       "a": 1,
       "exp": "Ropiness is caused by exopolysaccharides produced by lactic acid bacteria."
-    }
+    },
     {
       "q": "What apple classification provides low acidity AND low tannin?",
       "options": ["Sweet", "Sharp", "Bittersweet", "Bittersharp"],
