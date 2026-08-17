@@ -1,4 +1,5 @@
 const fullBeerGuidelines = [
+    // --- CATEGORY 1: STANDARD AMERICAN LAGER ---
     {
         name: "1A. American Light Lager",
         stats: "OG: 1.028–1.040 | FG: 0.998–1.008 | IBU: 8–12 | SRM: 2–3 | ABV: 2.8–4.2%",
@@ -13,6 +14,62 @@ const fullBeerGuidelines = [
         comparison: "Lighter in body, alcohol, and flavor than standard American Lager."
     },
     {
+        name: "1B. American Lager",
+        stats: "OG: 1.040–1.050 | FG: 1.004–1.010 | IBU: 8–18 | SRM: 2–4 | ABV: 4.2–5.3%",
+        impression: "A very pale, highly carbonated, light-bodied, well-attenuated lager with a very neutral flavor profile and low bitterness.",
+        aroma: "Low to no malt aroma; may have a grain-like, corn-like, or sweet maltiness. Hop aroma absent to very low.",
+        appearance: "Very pale straw to medium yellow color. High clarity. White foam head that may not be long-lasting.",
+        flavor: "Neutral palate with a crisp, dry finish. Low to moderate grain or corn malt flavor. Bitterness is low.",
+        mouthfeel: "Light to medium-light body. High carbonation with a slight carbonic bite on the tongue.",
+        comments: "Stronger, more flavor, and more body than an American Light Lager.",
+        history: "Developed in the US by German immigrant brewers using native six-row barley and rice/corn adjuncts.",
+        ingredients: "Two-row or six-row barley with up to 40% corn or rice as adjuncts.",
+        comparison: "Fuller-bodied and higher in alcohol than American Light Lager."
+    },
+    {
+        name: "1C. Cream Ale",
+        stats: "OG: 1.042–1.055 | FG: 1.006–1.012 | IBU: 15–20 | SRM: 2.5–5 | ABV: 4.2–5.6%",
+        impression: "A clean, well-attenuated, highly carbonated flavorful American lawnmower beer. Easily drinkable and refreshing.",
+        aroma: "Medium-low to low malt notes, sweet corn-like profile optional. Low floral or herbal hop aroma.",
+        appearance: "Pale straw to gold color. Brilliant clarity. Low to medium head retention.",
+        flavor: "Low to medium-low hop bitterness. Low sweet malt flavor with faint DMS or corn notes permissible.",
+        mouthfeel: "Light to medium-light body. High carbonation giving a crisp, effervescent mouthfeel.",
+        comments: "An ale style brewed to compete with pale lagers in the Northeast and Midwest US.",
+        history: "A sparkling or present-use ale developed by American ale brewers in the 19th century.",
+        ingredients: "American pale malt, 6-row barley, up to 20% maize (corn) in the mash.",
+        comparison: "More character and malt profile than American Lager, but still clean and crisp."
+    },
+
+    // --- CATEGORY 2: INTERNATIONAL LAGER ---
+    {
+        name: "2A. International Pale Lager",
+        stats: "OG: 1.042–1.050 | FG: 1.008–1.012 | IBU: 18–25 | SRM: 2–6 | ABV: 4.6–6.0%",
+        impression: "A highly-attenuated pale lager without strong flavors, typically well-balanced and highly carbonated.",
+        aroma: "Low grainy malt, minimal hop aroma. Clean fermentation without noticeable fruity esters or diacetyl.",
+        appearance: "Pale straw to golden yellow. Brilliant clarity with a compact white head.",
+        flavor: "Low to medium grainy malt profile, crisp finish, medium-low bitterness.",
+        mouthfeel: "Light to medium body. Medium to high carbonation.",
+        comments: "Includes flagship green-bottle commercial lagers like Heineken, Stella Artois, and Corona Extra.",
+        history: "Global adaptation of pale lagers engineered for mass commercial production and export.",
+        ingredients: "Two-row barley, rice or maize adjuncts, European noble or modern American hops.",
+        comparison: "Slightly more bitterness and malt flavor than American Lager, less noble hop punch than German Pils."
+    },
+
+    // --- CATEGORY 3: CZECH LAGER ---
+    {
+        name: "3A. Czech Pale Lager",
+        stats: "OG: 1.028–1.044 | FG: 1.008–1.014 | IBU: 20–35 | SRM: 3–6 | ABV: 3.0–4.1%",
+        impression: "A light-bodied, refreshing, pale Czech lager with noticeable hop flavor and soft maltiness.",
+        aroma: "Light bready malt aroma combined with spicy or herbal Saaz hop character.",
+        appearance: "Light gold to deep gold color. Dense, creamy white head.",
+        flavor: "Medium-low to medium bready malt profile with a prominent, smooth hop bitterness finish.",
+        mouthfeel: "Medium-light to light body. Medium carbonation.",
+        comments: "Known in the Czech Republic as Světlé Výčepní (10° Plato).",
+        history: "Brewed as a daily session lager in the Czech lands since the late 19th century.",
+        ingredients: "Moravian pale malt, Saaz hops, soft water, bottom-fermenting lager yeast.",
+        comparison: "Lower gravity, alcohol, and body than Czech Premium Pale Lager."
+    },
+    {
         name: "3B. Czech Premium Pale Lager",
         stats: "OG: 1.044–1.060 | FG: 1.013–1.017 | IBU: 30–45 | SRM: 3.5–6 | ABV: 4.2–5.8%",
         impression: "Rich, complex, bready pale lager with high drinkability and smooth Saaz hop balance.",
@@ -24,6 +81,60 @@ const fullBeerGuidelines = [
         history: "Pioneered in 1842 in Pilsen by Josef Groll.",
         ingredients: "Moravian malt, Saaz hops, soft Pilsen water, Czech lager yeast.",
         comparison: "Bigger, richer, and less crisp/dry than a German Pils."
+    },
+
+    // --- CATEGORY 4 & 5: GERMAN PALE LAGER & PILSNER ---
+    {
+        name: "4A. Munich Helles",
+        stats: "OG: 1.044–1.048 | FG: 1.006–1.012 | IBU: 16–22 | SRM: 3–5 | ABV: 4.7–5.4%",
+        impression: "A clean, grainy-sweet malt-forward German lager with a soft, dry finish and subtle noble hop balance.",
+        aroma: "Sweet, grainy pale malt aroma dominates. Low spicy or floral German hop aroma.",
+        appearance: "Pale yellow to medium gold. Clear with a creamy white head.",
+        flavor: "Subtle, soft Pilsner malt profile dominates. Soft hop bitterness supports without overpowering.",
+        mouthfeel: "Medium body, medium carbonation, smooth and rounded.",
+        comments: "Created in Munich in 1894 by Spaten to compete with Pilsner styles.",
+        history: "Developed as a malt-driven alternative to the bitter Pilsner style.",
+        ingredients: "Pilsner malt, German noble hops (Hallertau, Tettnang), clean Munich lager yeast.",
+        comparison: "More malt-forward and softer than German Pils; cleaner and paler than Märzen."
+    },
+    {
+        name: "4B. Festbier",
+        stats: "OG: 1.054–1.057 | FG: 1.010–1.012 | IBU: 18–25 | SRM: 4–7 | ABV: 5.8–6.3%",
+        impression: "A smooth, clean, pale German lager with a strong doughy malt profile and easy drinkability.",
+        aroma: "Moderate rich, doughy, bready Pilsner malt aroma. Low floral/herbal hop character.",
+        appearance: "Deep yellow to bright gold color. Clear with a persistent off-white head.",
+        flavor: "Medium to medium-high bready malt richness with a soft, dry, clean finish.",
+        mouthfeel: "Medium body. Smooth, soft palate with medium carbonation.",
+        comments: "The modern beer style served at the Munich Oktoberfest today.",
+        history: "Developed in the 1970s by Paulaner to offer a lighter, more drinkable alternative to heavy Märzen.",
+        ingredients: "Pilsner base malt with additions of Vienna and Munich malts, German noble hops.",
+        comparison: "Lighter in color, body, and sweet caramel depth than traditional Märzen; stronger than Helles."
+    },
+    {
+        name: "5A. German Leichtbier",
+        stats: "OG: 1.026–1.034 | FG: 1.006–1.010 | IBU: 15–28 | SRM: 2–5 | ABV: 2.4–3.6%",
+        impression: "A clear, pale, lightweight German lager with good hop balance and clean attenuation.",
+        aroma: "Low to medium noble hop aroma. Clean, light grainy Pilsner malt backbone.",
+        appearance: "Straw to pale gold color. Brilliant clarity with persistent head.",
+        flavor: "Medium-low hop bitterness balanced by light grainy malt. Crisp, dry finish.",
+        mouthfeel: "Light body, medium-high carbonation.",
+        comments: "Brewed as a lower-alcohol alternative to standard Pilsners.",
+        history: "Modern German low-alcohol lager adaptation.",
+        ingredients: "Pilsner malt, German noble hops, lager yeast.",
+        comparison: "Drier and more hopped than American Light Lager; lighter strength than German Pils."
+    },
+    {
+        name: "5C. Helles Exportbier",
+        stats: "OG: 1.050–1.058 | FG: 1.008–1.015 | IBU: 20–30 | SRM: 4–7 | ABV: 5.0–6.0%",
+        impression: "A fresh, clean, medium-bodied golden German lager with a firm malt profile and solid hop balance.",
+        aroma: "Medium grainy Pilsner malt aroma with low floral or herbal German hop notes.",
+        appearance: "Light gold to deep gold. Clear with a solid white head.",
+        flavor: "Harmonious balance of sweet grainy malt and clean hop bitterness.",
+        mouthfeel: "Medium body, smooth carbonation.",
+        comments: "Historically known as Dortmunder Export.",
+        history: "Brewed in Dortmund starting in the 1870s for industrial workers.",
+        ingredients: "Pilsner malt, sulfate-rich water, German noble hops.",
+        comparison: "Stronger and slightly more bitter than Munich Helles, less hop-driven than German Pils."
     },
     {
         name: "5D. German Pils",
@@ -38,6 +149,8 @@ const fullBeerGuidelines = [
         ingredients: "Pilsner malt, German noble hops, clean lager yeast.",
         comparison: "Drier, crisper, and more bitter than Czech Pale Lager."
     },
+
+    // --- CATEGORY 6, 7 & 8: AMBER & DARK LAGERS / ALTS ---
     {
         name: "6A. Märzen",
         stats: "OG: 1.054–1.060 | FG: 1.010–1.014 | IBU: 18–24 | SRM: 8–17 | ABV: 5.6–6.0%",
@@ -52,6 +165,73 @@ const fullBeerGuidelines = [
         comparison: "Richer and darker than Festbier or Helles."
     },
     {
+        name: "6B. Dunkles Rauchbier",
+        stats: "OG: 1.050–1.058 | FG: 1.012–1.016 | IBU: 20–30 | SRM: 12–22 | ABV: 5.1–6.0%",
+        impression: "An amber-to-dark German lager with a balanced, sweet wood-smoke aroma and rich malt base.",
+        aroma: "Blended smoky beechwood and rich, toasty German malt notes.",
+        appearance: "Deep amber to dark brown. Clear with a dense, cream-colored head.",
+        flavor: "Rich, toasty malt flavor integrated smoothly with beechwood smoke complexity.",
+        mouthfeel: "Medium body. Smooth and creamy carbonation.",
+        comments: "The famous specialty lager of Bamberg, Germany (e.g., Schlenkerla).",
+        history: "Preserves ancient kilning traditions where malts were dried over open beechwood fires.",
+        ingredients: "German Rauchmalt (beechwood smoked malt), Munich malt, noble hops.",
+        comparison: "A Märzen base infused with authentic beechwood smoke."
+    },
+    {
+        name: "7A. Vienna Lager",
+        stats: "OG: 1.048–1.056 | FG: 1.010–1.014 | IBU: 18–30 | SRM: 9–15 | ABV: 4.7–5.5%",
+        impression: "A smooth, reddish-amber German-style lager with toasted malt richness and elegant dryness.",
+        aroma: "Moderate malt aroma featuring light toasted and bready notes. No roast.",
+        appearance: "Light reddish-amber to copper color. Clear with a persistent off-white head.",
+        flavor: "Toasty malt complexity with a soft, elegant bitterness and dry finish.",
+        mouthfeel: "Medium-light to medium body. Smooth carbonation.",
+        comments: "Pioneered by Anton Dreher in Vienna in 1841.",
+        history: "Developed alongside Pilsner; survived commercially in Mexico.",
+        ingredients: "Vienna malt as base, subtle caramel malts, German noble hops.",
+        comparison: "Lighter in body and drier on the finish than a Märzen."
+    },
+    {
+        name: "7B. Altbier",
+        stats: "OG: 1.044–1.052 | FG: 1.008–1.014 | IBU: 25–50 | SRM: 11–17 | ABV: 4.3–5.5%",
+        impression: "A well-balanced, well-attenuated, bitter yet malty, clean and smooth German amber ale.",
+        aroma: "Clean, rich, grainy-malty aroma with light toast/nutty complexity and moderate noble hop character.",
+        appearance: "Light copper to dark bronze color. Brilliant clarity with a dense off-white head.",
+        flavor: "Assertive, firm hop bitterness balanced by a rich, clean malt profile. Crisp, dry finish.",
+        mouthfeel: "Medium body. Smooth, well-conditioned with medium carbonation.",
+        comments: "Traditional top-fermenting ale lagered at cold temperatures in Düsseldorf.",
+        history: "Preserved historical top-fermentation tradition in the Westphalia region.",
+        ingredients: "German Pilsner, Munich, and Carafa malts, Spalt or Tettnang hops, clean ale yeast.",
+        comparison: "More bitter and drier than a Vienna Lager or Märzen."
+    },
+    {
+        name: "8A. Munich Dunkel",
+        stats: "OG: 1.048–1.056 | FG: 1.010–1.014 | IBU: 18–25 | SRM: 14–28 | ABV: 4.5–5.6%",
+        impression: "A classic dark German lager combining rich Munich malt sweetness with smooth, clean lager drinkability.",
+        aroma: "Rich Munich malt aroma of bread crust, toast, and subtle chocolate without burnt notes.",
+        appearance: "Deep copper to dark brown with a red hue. Clear with a creamy, light tan head.",
+        flavor: "Dominated by rich, toasted Munich malt complexity, soft chocolate notes, and clean noble hop balance.",
+        mouthfeel: "Medium to medium-full body, smooth and rounded palate.",
+        comments: "The traditional daily lager of Munich before Helles was created.",
+        history: "Evolved in Bavaria following dark malting standards before clean kilning was introduced.",
+        ingredients: "Munich base malt, subtle dark malts for color adjustment, German lager yeast.",
+        comparison: "Richer and more malt-driven than Schwarzbier; less alcoholic than Dunkles Bock."
+    },
+    {
+        name: "8B. Schwarzbier",
+        stats: "OG: 1.046–1.052 | FG: 1.010–1.016 | IBU: 20–30 | SRM: 17–30 | ABV: 4.4–5.4%",
+        impression: "A dark German lager that balances mild roasted malt flavors with a clean, light, and crisp lager finish.",
+        aroma: "Low to moderate dark malt character (bittersweet chocolate, coffee) combined with light noble hop aromatics.",
+        appearance: "Medium to very dark brown with ruby highlights. Clear with a persistent tan head.",
+        flavor: "Mild dark malt roastiness without astringency, crisp bitterness, and a dry, refreshing finish.",
+        mouthfeel: "Medium-light to medium body, clean carbonation.",
+        comments: "Known as 'Black Beer' from Thuringia and Saxony.",
+        history: "A historical dark regional style preserved in Central Germany.",
+        ingredients: "German Pilsner, Munich, and dehusked dark malts (Carafa Special), noble hops.",
+        comparison: "Lighter in body, drier, and crisper than Munich Dunkel or American Porter."
+    },
+
+    // --- CATEGORY 9: BOCK ---
+    {
         name: "9A. Doppelbock",
         stats: "OG: 1.072–1.112 | FG: 1.016–1.024 | IBU: 16–26 | SRM: 6–25 | ABV: 7.0–10.0%",
         impression: "Very strong, rich, malty German lager with deep melanoidins and warming alcohol.",
@@ -65,6 +245,21 @@ const fullBeerGuidelines = [
         comparison: "Stronger, darker, and richer than Bock or Helles Bock."
     },
     {
+        name: "9B. Eisbock",
+        stats: "OG: 1.078–1.120 | FG: 1.020–1.035 | IBU: 25–35 | SRM: 18–30 | ABV: 9.0–14.0%",
+        impression: "A monumental, rich, dark German lager made by freeze-concentrating a Doppelbock.",
+        aroma: "Intense dark fruit, dark chocolate, and rich melanoidin malt complexity with smooth alcohol warmth.",
+        appearance: "Deep copper to dark brown with ruby highlights. Low foam retention due to high ABV.",
+        flavor: "Concentrated malt richness, plum/prune fruitiness, and sweet alcohol warmth without harsh fusels.",
+        mouthfeel: "Full body, low carbonation, viscous and warming.",
+        comments: "Freeze distillation concentrates alcohol, sugar, and flavor.",
+        history: "Originates from Kulmbach, Bavaria, where frozen Doppelbock barrels were accidentally discovered.",
+        ingredients: "Doppelbock base beer subjected to freeze concentration.",
+        comparison: "Richer, heavier, thicker, and higher alcohol than a standard Doppelbock."
+    },
+
+    // --- CATEGORY 10: GERMAN WHEAT BEER ---
+    {
         name: "10A. Weissbier",
         stats: "OG: 1.044–1.052 | FG: 1.010–1.014 | IBU: 8–15 | SRM: 2–6 | ABV: 4.3–5.6%",
         impression: "Bavarian wheat ale with prominent banana and clove yeast character, highly carbonated.",
@@ -76,6 +271,21 @@ const fullBeerGuidelines = [
         history: "Bavarian wheat beer tradition protected by historical brewing laws.",
         ingredients: "Malted wheat (50%+), pilsner malt, German wheat beer yeast.",
         comparison: "Distinctly more phenolic and ester-driven than American Wheat."
+    },
+
+    // --- CATEGORY 11 & 12: BRITISH BITTER & GOLDEN ALE ---
+    {
+        name: "11A. Ordinary Bitter",
+        stats: "OG: 1.030–1.038 | FG: 1.006–1.011 | IBU: 25–35 | SRM: 8–14 | ABV: 3.2–3.8%",
+        impression: "A low-gravity, sessionable British pub ale with moderate bitterness and light malt complexity.",
+        aroma: "Low fruity esters, earthy/floral English hop aroma, subtle bready malt backbone.",
+        appearance: "Light yellow-amber to copper. Low carbonation, soft off-white head.",
+        flavor: "Medium-low bready/caramel malt balanced with firm, dry British hop bitterness.",
+        mouthfeel: "Light to medium-light body, low cask carbonation.",
+        comments: "The lowest gravity member of the English Bitter family.",
+        history: "Served as a draught session beer in British pubs.",
+        ingredients: "British pale ale malt, crystal malt, English hops (Fuggles/Goldings), expressive ale yeast.",
+        comparison: "Lighter in gravity, body, and alcohol than Best Bitter."
     },
     {
         name: "11B. Best Bitter",
@@ -104,6 +314,47 @@ const fullBeerGuidelines = [
         comparison: "Richer, stronger, and more assertive than Best Bitter."
     },
     {
+        name: "12A. British Golden Ale",
+        stats: "OG: 1.038–1.050 | FG: 1.006–1.012 | IBU: 20–45 | SRM: 2–6 | ABV: 3.8–5.0%",
+        impression: "A refreshing, hop-forward British pale ale served cold with citrus, floral, or herbal hop aromatics.",
+        aroma: "Moderate to high hop aroma (English or New World citrus/floral varieties) backed by clean pale malt.",
+        appearance: "Straw to bright golden. Good clarity with an off-white head.",
+        flavor: "Firm hop bitterness supporting light bready/biscuity malt. Dry finish.",
+        mouthfeel: "Medium-light to medium body, light carbonation.",
+        comments: "Developed in the 1980s to compete with lagers in UK pubs.",
+        history: "Modern British craft ale innovation.",
+        ingredients: "Low-color pale malt, subtle wheat, English or modern American/New World hops.",
+        comparison: "Paler, crisper, and more hop-forward than Best Bitter."
+    },
+
+    // --- CATEGORY 13, 15 & 16: BROWN ALE, PORTERS & STOUTS ---
+    {
+        name: "13A. Dark Mild",
+        stats: "OG: 1.030–1.038 | FG: 1.008–1.013 | IBU: 10–25 | SRM: 12–25 | ABV: 3.0–3.8%",
+        impression: "A dark, low-gravity British session ale emphasizing malt richness, dark fruit, and dark sugar notes.",
+        aroma: "Low to moderate dark malt aroma (caramel, chocolate, dark fruit, nuttiness). Minimal hop aroma.",
+        appearance: "Deep copper to dark brown. Low off-white to tan head.",
+        flavor: "Malt-driven profile of toast, caramel, and chocolate balanced by low hop bitterness.",
+        mouthfeel: "Light to medium body, low cask carbonation.",
+        comments: "Historically consumed by British industrial workers.",
+        history: "Evolved from young, un-aged 'mild' British ales.",
+        ingredients: "British pale malt, crystal, chocolate malts, dark sugars/treacle.",
+        comparison: "Darker and lower bitterness than Ordinary Bitter; lighter than British Porter."
+    },
+    {
+        name: "13C. English Porter",
+        stats: "OG: 1.040–1.052 | FG: 1.008–1.014 | IBU: 18–35 | SRM: 20–30 | ABV: 4.0–5.4%",
+        impression: "A dark British ale featuring restrained dark malt roastiness, caramel sweetness, and soft hop bitterness.",
+        aroma: "Moderate dark malt character (chocolate, nutty, caramel, light coffee). Low English hop aroma.",
+        appearance: "Medium brown to dark brown with ruby highlights. Moderate tan head.",
+        flavor: "Toffee, nutty, and milk chocolate flavors with a soft, smooth malt finish.",
+        mouthfeel: "Medium-light to medium body, smooth texture.",
+        comments: "The original working-class London street ale style.",
+        history: "Developed in London during the 1700s, named after city street porters.",
+        ingredients: "British pale malt, brown malt, chocolate malt, English hops.",
+        comparison: "Sweeter and less roasty than Irish Stout; softer than American Porter."
+    },
+    {
         name: "15B. Irish Stout",
         stats: "OG: 1.036–1.044 | FG: 1.007–1.011 | IBU: 25–45 | SRM: 25–40 | ABV: 4.0–4.5%",
         impression: "Black, roasty, dry ale with creamy head and sharp coffee-like roasted barley bitterness.",
@@ -115,6 +366,73 @@ const fullBeerGuidelines = [
         history: "Irish adaptation of London porter styles utilizing roasted unmalted barley.",
         ingredients: "Pale ale malt, flaked barley, roasted barley, Irish ale yeast.",
         comparison: "Drier and sharper roast bite than English Porter or Sweet Stout."
+    },
+    {
+        name: "16A. Sweet Stout",
+        stats: "OG: 1.044–1.060 | FG: 1.012–1.024 | IBU: 20–40 | SRM: 30–40 | ABV: 4.0–6.0%",
+        impression: "A dark, sweet, full-bodied ale featuring unfermentable lactose sugar and soft roasted coffee/chocolate notes.",
+        aroma: "Sweet dark malt aroma, chocolate, cream, and sweetened coffee.",
+        appearance: "Very dark brown to jet black. Persistent tan head.",
+        flavor: "Dark roast chocolate and coffee balanced by full-bodied lactose sweetness.",
+        mouthfeel: "Medium-full to full body, creamy and luscious mouthfeel.",
+        comments: "Also known as Milk Stout or Cream Stout.",
+        history: "Patented in England in the early 1900s incorporating milk sugars.",
+        ingredients: "Pale malt, roasted barley, chocolate malt, lactose (milk sugar).",
+        comparison: "Sweeter, fuller, and less bitter/roasty than Irish Stout."
+    },
+
+    // --- CATEGORY 18, 19 & 20: AMERICAN ALES & PORTERS ---
+    {
+        name: "18A. Blonde Ale",
+        stats: "OG: 1.038–1.054 | FG: 1.008–1.013 | IBU: 15–28 | SRM: 3–6 | ABV: 3.8–5.5%",
+        impression: "An easy-drinking, approachable American pale ale with light maltiness and subtle hop balance.",
+        aroma: "Low to moderate sweet malt aroma, subtle fruity esters, low floral/citrus hop notes.",
+        appearance: "Light yellow to deep gold. Clear with a fair white head.",
+        flavor: "Balanced pale malt profile with gentle hop bitterness and a smooth, clean finish.",
+        mouthfeel: "Medium-light body, medium carbonation.",
+        comments: "Designed as an entry point for craft beer drinkers.",
+        history: "American craft style developed in the late 20th century.",
+        ingredients: "American two-row malt, US hop varieties, neutral ale yeast.",
+        comparison: "Slightly more flavor than Cream Ale; lower bitterness than American Pale Ale."
+    },
+    {
+        name: "18B. American Pale Ale",
+        stats: "OG: 1.045–1.060 | FG: 1.010–1.015 | IBU: 30–50 | SRM: 5–10 | ABV: 4.5–6.2%",
+        impression: "A pale, refreshing, and hoppy ale with supporting malt character and vibrant American or New World hop aromas.",
+        aroma: "Moderate to high hop aroma showcasing citrus, floral, pine, resin, or tropical fruit notes.",
+        appearance: "Pale golden to light amber color. Clear with a moderate white head.",
+        flavor: "Moderate to high hop bitterness supporting citrus/pine hop flavor, ending with a clean, dry finish.",
+        mouthfeel: "Medium-light to medium body, moderate carbonation.",
+        comments: "Sierra Nevada Pale Ale is the historic commercial exemplar.",
+        history: "Developed in the late 1970s as American craft brewers adapted English pale ale recipes with Pacific Northwest hops.",
+        ingredients: "American two-row pale malt, crystal malts, US hops (Cascade, Centennial, etc.), clean ale yeast.",
+        comparison: "Less bitter, lower in alcohol, and slightly maltier than an American IPA."
+    },
+    {
+        name: "19A. American Amber Ale",
+        stats: "OG: 1.045–1.060 | FG: 1.010–1.015 | IBU: 25–40 | SRM: 10–17 | ABV: 4.5–6.2%",
+        impression: "An amber, hoppy, medium-bodied American craft ale with caramel malt sweetness and firm hop character.",
+        aroma: "Low to moderate hop aroma (citrus/floral) balanced by strong caramel and toasty malt notes.",
+        appearance: "Amber to reddish-copper color. Good clarity with an off-white head.",
+        flavor: "Moderate caramel malt sweetness balanced by firm American hop bitterness and fruitiness.",
+        mouthfeel: "Medium to medium-full body, smooth texture.",
+        comments: "Popularized on the US West Coast and in the Midwest.",
+        history: "Craft beer adaptation of traditional pale ales with higher proportions of caramel malts.",
+        ingredients: "Pale ale malt, medium-to-dark crystal malts, American hop varieties.",
+        comparison: "Maltier and darker than American Pale Ale; less bitter and lighter than Double IPA."
+    },
+    {
+        name: "19C. American Brown Ale",
+        stats: "OG: 1.045–1.060 | FG: 1.010–1.016 | IBU: 20–30 | SRM: 18–26 | ABV: 4.3–6.2%",
+        impression: "A dark, malt-forward ale with prominent chocolate, caramel, and dark fruit complexity complemented by US hops.",
+        aroma: "Moderate dark malt notes (chocolate, sweet caramel, nuts, roasted grain) with light US hop aromatics.",
+        appearance: "Light to dark brown color. Clear with a cream-colored head.",
+        flavor: "Rich chocolate and caramel sweetness balanced by dry roasted grain finish and clean hop bitterness.",
+        mouthfeel: "Medium body, smooth texture.",
+        comments: "Often showcases US hop punch over traditional English brown ale templates.",
+        history: "American homebrewers expanded traditional English Brown Ales with local malts and hops.",
+        ingredients: "Pale malt, chocolate malt, crystal malts, American hops.",
+        comparison: "More roasty, darker, and more hop-forward than English Brown Ale."
     },
     {
         name: "20A. American Porter",
@@ -129,6 +447,8 @@ const fullBeerGuidelines = [
         ingredients: "American pale malt, chocolate malt, crystal malt, American ale yeast.",
         comparison: "Cleaner yeast profile and less acrid than English Porters."
     },
+
+    // --- CATEGORY 21 & 22: IPA FAMILY ---
     {
         name: "21A. American IPA",
         stats: "OG: 1.056–1.070 | FG: 1.008–1.014 | IBU: 40–70 | SRM: 6–14 | ABV: 5.5–7.5%",
@@ -143,6 +463,19 @@ const fullBeerGuidelines = [
         comparison: "More hop-forward and cleaner yeast profile than English IPA."
     },
     {
+        name: "21B. Specialty IPA (Mountain/Rye/White/Black)",
+        stats: "Variable by style entry (e.g. Black IPA OG: 1.050–1.070 | IBU: 50–90 | SRM: 25–40)",
+        impression: "A family of hop-forward ales incorporating special malts, grains, or color targets while preserving high hop punch.",
+        aroma: "Vibrant hop aromatics integrated with style-specific notes (dark roast in Black IPA, spicy rye in Rye IPA).",
+        appearance: "Ranges from straw (White IPA) to jet black (Black IPA).",
+        flavor: "Assertive hop bitterness supported by sub-style grain additions.",
+        mouthfeel: "Medium-light to medium body, dry finish.",
+        comments: "Entrant must specify exact sub-style variation.",
+        history: "Modern craft evolution expanding classic IPA boundaries.",
+        ingredients: "Specialty grains (rye, wheat, dark dehusked malt), New World hops.",
+        comparison: "Judged on hop balance in synergy with specified specialty element."
+    },
+    {
         name: "22A. Double IPA",
         stats: "OG: 1.065–1.085 | FG: 1.008–1.018 | IBU: 60–120 | SRM: 6–14 | ABV: 7.5–10.0%",
         impression: "Intensely hoppy, very strong pale ale with massive hop punch and smooth malt backbone.",
@@ -154,6 +487,73 @@ const fullBeerGuidelines = [
         history: "Originated in California in the late 1990s (Vinnie Cilurzo / Pliny the Elder).",
         ingredients: "Pale malt, sugar adjuncts to dry out finish, massive hop loads.",
         comparison: "Stronger, more bitter, and higher alcohol than standard American IPA."
+    },
+
+    // --- CATEGORY 23, 24, 25 & 26: EUROPEAN SOUR & BELGIAN ALES ---
+    {
+        name: "23A. Berliner Weisse",
+        stats: "OG: 1.028–1.032 | FG: 1.003–1.006 | IBU: 3–8 | SRM: 2–3 | ABV: 2.8–3.8%",
+        impression: "A very pale, refreshing, low-alcohol German wheat ale with a clean, sharp lactic sourness and high carbonation.",
+        aroma: "Sharply sour, doughy wheat malt notes, subtle fruity esters, no hop aroma.",
+        appearance: "Very pale straw color. Unfiltered/cloudy with a fleeting white head.",
+        flavor: "Clean, dominant lactic acidity balanced by soft wheat grain profile. Dry, tart finish.",
+        mouthfeel: "Light body, effervescent high carbonation.",
+        comments: "Historically called the 'Champagne of the North' by Napoleon's troops.",
+        history: "Traditional sour wheat ale style of Berlin, Germany.",
+        ingredients: "Malted wheat, Pilsner malt, Lactobacillus bacteria, light hops.",
+        comparison: "Sourer and lower in alcohol than Weissbier; lighter than Gose."
+    },
+    {
+        name: "24A. Witbier",
+        stats: "OG: 1.044–1.052 | FG: 1.008–1.012 | IBU: 8–20 | SRM: 2–4 | ABV: 4.5–5.5%",
+        impression: "A refreshing, pale, hazy Belgian wheat ale spiced with coriander and Curaçao orange peel.",
+        aroma: "Light spicy coriander, herbal citrus notes, soft wheat grain, and subtle fruity esters.",
+        appearance: "Pale straw to light gold. Hazy from raw wheat and yeast with a dense white head.",
+        flavor: "Crisp wheat sweetness, light tart citrus, spicy coriander, and dry finish.",
+        mouthfeel: "Medium-light body, high carbonation giving a zesty mouthfeel.",
+        comments: "Revived by Pierre Celis at Hoegaarden in the 1960s.",
+        history: "Traditional Belgian farmhouse ale style originating in Brabant.",
+        ingredients: "Unmalted wheat (up to 50%), Pilsner malt, oats, coriander, dried orange peel.",
+        comparison: "Paler, hazier, and more spiced than German Weissbier."
+    },
+    {
+        name: "25A. Saison",
+        stats: "OG: 1.048–1.065 | FG: 1.002–1.008 | IBU: 20–35 | SRM: 5–14 | ABV: 3.5–9.5%",
+        impression: "A highly attenuated, refreshing, fruity, spicy Belgian farmhouse ale with a dry finish.",
+        aroma: "Complex peppery phenols, fruity esters (citrus/pear), subtle herbal hop notes, light malt.",
+        appearance: "Pale gold to deep amber. Unfiltered haze acceptable with a rocky white head.",
+        flavor: "Spicy phenols, fruity esters, high attenuation, crisp acidity, and a bone-dry finish.",
+        mouthfeel: "Light to medium body, high effervescent carbonation.",
+        comments: "Traditionally brewed in farmhouses during winter for farm hands (saisonniers) in summer.",
+        history: "Wallonian farmhouse brewing tradition.",
+        ingredients: "Pilsner malt, wheat, sugar, noble or European hops, expressive phenolic yeast.",
+        comparison: "More attenuated, drier, and spicier than Belgian Blonde Ale."
+    },
+    {
+        name: "26A. Belgian Single",
+        stats: "OG: 1.044–1.054 | FG: 1.004–1.010 | IBU: 25–40 | SRM: 3–7 | ABV: 4.8–6.0%",
+        impression: "A pale, bitter, highly attenuated monastic ale with herbal hop character and spicy Belgian yeast profile.",
+        aroma: "Moderate spicy/peppery phenols, fruity esters, and herbal/floral European hops.",
+        appearance: "Yellow to deep gold. Clear with a creamy white head.",
+        flavor: "Crisp malt profile, bold herbal bitterness, spicy yeast esters, dry finish.",
+        mouthfeel: "Medium-light body, high carbonation.",
+        comments: "Also known as Patersbier ('Father's Beer') brewed for monk consumption inside abbeys.",
+        history: "Monastic Trappist table beer tradition.",
+        ingredients: "Pilsner malt, Belgian Trappist yeast, European noble hops.",
+        comparison: "Lower alcohol and more hop-driven than Belgian Dubbel or Tripel."
+    },
+    {
+        name: "26B. Belgian Dubbel",
+        stats: "OG: 1.062–1.075 | FG: 1.008–1.018 | IBU: 15–25 | SRM: 10–17 | ABV: 6.0–7.6%",
+        impression: "A deep reddish-copper, malty, complex Belgian Trappist ale with rich dark fruit and caramel notes.",
+        aroma: "Complex dark fruit (raisins, plum, fig), rich dark candi sugar, and spicy phenolic yeast notes.",
+        appearance: "Dark copper to reddish-brown. Clear with a large, persistent off-white head.",
+        flavor: "Rich dark malt sweetness, raisin/fig complexity, soft alcohol warmth, dry finish.",
+        mouthfeel: "Medium-full body, high effervescent carbonation.",
+        comments: "Pioneered by Westmalle in the mid-19th century.",
+        history: "Monastic Trappist strong dark ale tradition.",
+        ingredients: "Pilsner malt, dark candi syrup, Belgian abbey yeast, subtle hops.",
+        comparison: "Darker, fruitier, and maltier than Belgian Tripel."
     },
     {
         name: "26C. Belgian Tripel",
@@ -168,6 +568,21 @@ const fullBeerGuidelines = [
         ingredients: "Pilsner malt, clear candi sugar, Belgian phenolic yeast.",
         comparison: "Paleness and dryness distinguish it from Belgian Dubbel."
     },
+    {
+        name: "26D. Belgian Dark Strong Ale",
+        stats: "OG: 1.075–1.110 | FG: 1.010–1.024 | IBU: 20–35 | SRM: 12–22 | ABV: 8.0–12.0%",
+        impression: "A dark, complex, very strong Belgian ale with a rich blend of malt richness, dark fruit, and smooth warming alcohol.",
+        aroma: "Intense dark fruit (plum, prune, raisin), dark caramel, spicy phenols, and smooth alcohol.",
+        appearance: "Deep amber to dark brown with reddish highlights. Dense, creamy tan head.",
+        flavor: "Deep melanoidins, caramel, raisin/fig sweetness, peppery alcohol warmth, dryish finish.",
+        mouthfeel: "Full body, high carbonation, smooth warming character.",
+        comments: "Includes quadrupel (Quad) commercial exemplars like Westvleteren 12 and Rochefort 10.",
+        history: "Monastic Trappist and Abbey brewing tradition scaled for maximum strength.",
+        ingredients: "Pilsner malt, dark candi syrup, complex Belgian ale yeast.",
+        comparison: "Stronger, richer, and heavier than Belgian Dubbel."
+    },
+
+    // --- CATEGORY 27 THROUGH 34: HISTORICAL & SPECIALTY BEERS ---
     {
         name: "27. Historical Beer (Gose / Piwo Grodziskie)",
         stats: "Stats vary by style (Gose OG: 1.036–1.056 | FG: 1.006–1.010 | IBU: 5–12)",
