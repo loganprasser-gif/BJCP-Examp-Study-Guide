@@ -1,5 +1,5 @@
 {
-  "critical_additions_batch1": [
+  "critical": [
     {
       "q": "What is the typical Original Gravity (OG) range for a Czech Premium Pale Lager (3B)?",
       "options": ["1.028–1.040", "1.044–1.060", "1.065–1.080", "1.080–1.100"],
@@ -361,7 +361,7 @@
       "exp": "Belgian Tripel attenuates heavily down to 1.008–1.014 despite its high starting gravity."
     }
   ],
-  "tf_additions_batch1": [
+  "tf": [
     {
       "q": "True or False: A judge must write a minimum of 25 words in every score box on a BJCP scoresheet.",
       "options": ["True", "False"],
@@ -663,7 +663,7 @@
       "exp": "True. 13 points is the minimum allowable score on a BJCP scoresheet."
     }
   ],
-  "mead_additions_batch1": [
+  "mead": [
     {
       "q": "Which honey varietal is famous for distinct marshmallow, vanilla, and marzipan notes?",
       "options": ["Alfalfa", "Meadowfoam", "Buckwheat", "Orange Blossom"],
@@ -935,7 +935,7 @@
       "exp": "Hydromels are light session meads between 3.5% and 7.5% ABV."
     }
   ],
-  "cider_additions_batch1": [
+  "cider": [
     {
       "q": "What apple classification provides high acidity and low tannin?",
       "options": ["Sweet", "Sharp", "Bittersweet", "Bittersharp"],
