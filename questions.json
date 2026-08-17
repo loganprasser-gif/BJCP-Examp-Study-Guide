@@ -1,0 +1,190 @@
+{
+  "critical": [
+    {
+      "q": "Which of the following describes the yeast profile of a classic German Weissbier (10A)?",
+      "options": ["Clean, highly flocculant", "Prominent banana and clove", "Spicy phenols with Brett", "Peppery phenols with lactic acidity"],
+      "a": 1,
+      "exp": "Weissbier yeast provides signature banana (isoamyl acetate) and clove (4-vinylguaiacol)."
+    },
+    {
+      "q": "What distinguishes an American Porter (20A) from an Irish Stout (15B)?",
+      "options": ["Irish Stout is sweeter", "American Porter lacks the sharp roasted barley acrid bite", "American Porter uses exclusively European malts", "Irish Stout requires flaked maize"],
+      "a": 1,
+      "exp": "Irish Stouts are defined by roasted unmalted barley astringency; American Porters rely on chocolate/caramel malts and clean hop bitterness."
+    },
+    {
+      "q": "What is the defining malt character of a Doppelbock (9A)?",
+      "options": ["Heavy smoke", "Intense, rich Maillard products, toasty, dark fruit", "Crisp pilsner malt", "Caramel dominance"],
+      "a": 1,
+      "exp": "Doppelbocks rely on rich Munich and Vienna malts undergoing extensive Maillard reactions during mashing/boiling."
+    },
+    {
+      "q": "Which hop variety is most authentic for a Czech Premium Pale Lager (3B)?",
+      "options": ["Cascade", "East Kent Goldings", "Saaz", "Hallertau Mittelfrüh"],
+      "a": 2,
+      "exp": "Saaz hops provide the classic spicy, floral, and herbal aroma of Czech pale lagers."
+    },
+    {
+      "q": "A Belgian Tripel (26C) is characteristically:",
+      "options": ["Dark and sweet", "Pale, highly attenuated (dry), spicy/fruity, high ABV", "Amber, malt-forward", "Sour and funky"],
+      "a": 1,
+      "exp": "Tripels are pale and dry, utilizing highly attenuative yeast and clear candi sugar."
+    },
+    {
+      "q": "What is the primary difference between German Pils (5D) and Czech Premium Pale Lager (3B)?",
+      "options": ["German Pils is darker and sweeter", "German Pils is drier, crisper, lighter in body, and higher in carbonation", "Czech Pils uses exclusively ale yeast", "German Pils has lower IBUs"],
+      "a": 1,
+      "exp": "German Pils is drier, crisper, and more bitter due to sulfate water profiles and higher attenuation."
+    },
+    {
+      "q": "Which malt profile is essential for an authentic Märzen (6A)?",
+      "options": ["Heavy peat-smoked malt", "Rich toasted German Munich and Vienna malts without roast or caramel", "100% Pilsner malt", "Heavy black patent malt"],
+      "a": 1,
+      "exp": "Märzen relies on German Munich and Vienna malts for elegant, bready, toasted flavor."
+    },
+    {
+      "q": "What defines the bitterness profile of a Double IPA (22A)?",
+      "options": ["Low and hidden by alcohol", "Assertive and high (60-120 IBU) supported by clean pale malts and high attenuation", "Tart lactic sourness", "Earthy British hop astringency"],
+      "a": 1,
+      "exp": "Double IPAs showcase massive, clean hop bitterness drying out via sugar additions."
+    },
+    {
+      "q": "What is the acceptable diacetyl level in a Czech Premium Pale Lager (3B)?",
+      "options": ["Completely unacceptable under any circumstances", "Low to trace levels are acceptable and traditional", "Dominant, butterscotch flavor expected", "High diacetyl required"],
+      "a": 1,
+      "exp": "Low to trace diacetyl is permissible in Czech lagers, adding rounded mouthfeel."
+    },
+    {
+      "q": "Which parameters distinguish Best Bitter (11B) from Strong Bitter (11C)?",
+      "options": ["Best Bitter is stronger in alcohol", "Best Bitter has lower gravity (1.040-1.048) and alcohol (3.8-4.6%) than Strong Bitter", "Strong Bitter is a dark stout", "Best Bitter uses lager yeast"],
+      "a": 1,
+      "exp": "Best Bitter is a session pub ale, whereas Strong Bitter (ESB) scales up in gravity, alcohol, and hop bite."
+    }
+  ],
+  "tf": [
+    {
+      "q": "True or False: A judge may assign a score of 12 to a beer that is completely infected and undrinkable.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. The lowest permissible floor score for a beer evaluated in a BJCP competition is 13."
+    },
+    {
+      "q": "True or False: To achieve the rank of Master, a judge must score at least a 90 on both the Tasting Exam and the Written Exam.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Master status requires a minimum 90% score on both exams in addition to experience points."
+    },
+    {
+      "q": "True or False: If a beer is entered into the wrong subcategory, the judge should evaluate it as the style it most resembles.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Beers must be judged strictly against the specific subcategory in which they were entered."
+    },
+    {
+      "q": "True or False: A minimum of 20 experience points (including 10 judging points) is required to sit for the National Exam.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. National level prerequisites require 20 total points."
+    },
+    {
+      "q": "True or False: Non-BJCP judges may judge in a sanctioned competition if paired with an experienced BJCP judge.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Novice or non-BJCP judges are routinely paired with experienced judges for training."
+    },
+    {
+      "q": "True or False: A score of 38-44 on a scoresheet designates an 'Excellent' example of the style.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. The score ranges are: Outstanding (45-50), Excellent (38-44), Very Good (30-37), Good (21-29), Fair (14-20), Problematic (13)."
+    },
+    {
+      "q": "True or False: Black or dark blue ink is required on BJCP scoresheets.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Red or light-colored pens are prohibited as they do not scan or copy clearly."
+    },
+    {
+      "q": "True or False: Diacetyl rest involves raising lager fermentation temperatures near the end of primary fermentation.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. Raising the temperature to 62-65°F (17-18°C) encourages yeast to reabsorb diacetyl."
+    },
+    {
+      "q": "True or False: If two judges disagree by more than 7 points, they must discuss and reconcile their scores.",
+      "options": ["True", "False"],
+      "a": 0,
+      "exp": "True. The standard 7-point consensus rule requires judges to discuss and adjust scores."
+    },
+    {
+      "q": "True or False: Skunky odor in beer is caused by autolysis of dead yeast cells.",
+      "options": ["True", "False"],
+      "a": 1,
+      "exp": "False. Skunkiness (lightstruck) is caused by UV light breaking down hop alpha acids into 3-methyl-2-butene-1-thiol."
+    }
+  ],
+  "mead": [
+    {
+      "q": "Which honey variety is uniquely noted for having a natural 'waxy' character?",
+      "options": ["Orange Blossom", "Alfalfa", "Buckwheat", "Tupelo"],
+      "a": 1,
+      "exp": "Alfalfa honey naturally presents a beeswax and hay aroma."
+    },
+    {
+      "q": "What physical characteristic is unique to Tupelo honey?",
+      "options": ["High glucose causing rapid crystallization", "Dark purple hue", "High ratio of fructose to glucose preventing crystallization", "Natural high tannin content"],
+      "a": 2,
+      "exp": "Tupelo honey rarely crystallizes due to its naturally high fructose ratio."
+    },
+    {
+      "q": "What is a Bochet?",
+      "options": ["A mead made with caramelized or burned honey", "A sparkling metheglin", "A hybrid beer-mead using wheat", "A dry cider-mead blend"],
+      "a": 0,
+      "exp": "Bochet involves boiling/caramelizing honey prior to fermentation to create marshmallow, toffee, and burnt sugar flavors."
+    },
+    {
+      "q": "What is a Braggot?",
+      "options": ["A mead made with grapes", "A mead fermented with malted grain and honey", "A hopped traditional mead", "A fortified ice mead"],
+      "a": 1,
+      "exp": "Braggot is a historical style blending malted barley and honey."
+    },
+    {
+      "q": "Why are staggered nutrient additions (TOSNA/YAN) crucial in high-gravity mead fermentations?",
+      "options": ["To prevent fusel alcohol production and stuck fermentations", "To increase color intensity", "To prevent wild bacteria growth", "To raise final gravity"],
+      "a": 0,
+      "exp": "Honey lacks free amino nitrogen (FAN), requiring phased additions of organic nutrients to prevent yeast stress."
+    }
+  ],
+  "cider": [
+    {
+      "q": "What is Keeving (Défécation)?",
+      "options": ["A French method to create naturally sweet cider by starving yeast of nutrients", "Freezing apple juice to concentrate sugar", "Boiling cider to caramelize sugars", "Adding sulfur dioxide to kill wild bacteria"],
+      "a": 0,
+      "exp": "Keeving forms a pectin gel 'chapeau brun' that strips nitrogen/nutrients, halting fermentation naturally to leave residual sugar."
+    },
+    {
+      "q": "What sugar alcohol naturally present in perry pears imparts a sweet perception even in bone-dry perry?",
+      "options": ["Sorbitol", "Xylitol", "Mannitol", "Glycerol"],
+      "a": 0,
+      "exp": "Sorbitol is unfermentable by wine/cider yeast, providing residual sweetness and slick mouthfeel in perry."
+    },
+    {
+      "q": "What is an 'escanciar' pour in Spanish cider service?",
+      "options": ["Pouring Spanish cider from height to aerate and release CO2/volatiles", "Straining apple pulp through cheesecloth", "Barrel aging cider in sherry casks", "Blending sweet and sharp apple juice"],
+      "a": 0,
+      "exp": "Escanciar is the traditional Asturian method of pouring cider overhead into a glass held low."
+    },
+    {
+      "q": "What defines an Ice Cider (C2C)?",
+      "options": ["Cider made from freeze-concentrated apple juice with no added sugar", "Cider served over crushed ice", "Cider fermented with lager yeast at freezing temperatures", "Cider aged in snow caves"],
+      "a": 0,
+      "exp": "Ice ciders concentrate natural apple sugars via ambient freeze distillation of juice or apples before fermentation."
+    },
+    {
+      "q": "Which apple category provides high tannin and low acidity?",
+      "options": ["Sweet", "Sharp", "Bittersweet", "Bittersharp"],
+      "a": 2,
+      "exp": "Bittersweet apples provide high tannin/astringency and low malic acid."
+    }
+  ]
+}
